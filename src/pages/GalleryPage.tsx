@@ -21,23 +21,23 @@ export const GalleryPage: React.FC = () => {
     <div className="bg-transparent min-h-screen pb-20">
       
       {/* Header */}
-      <div className="bg-slate-50 border-b border-slate-200 py-12 tech-grid">
+      <div className="bg-[#FAF0E0] border-b border-[#E8D4BE] py-12 tech-grid">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Breadcrumbs items={[{ label: 'Gallery' }]} />
           
           <div className="max-w-3xl space-y-3 mt-4">
             <div className="inline-flex items-center gap-2">
-              <span className="text-xs font-mono uppercase tracking-widest text-brand-700 font-bold block">
+              <span className="text-xs font-mono uppercase tracking-widest text-[#D4621A] font-bold block">
                 Machinery & Facility Visuals
               </span>
-              <span className="font-caveat text-base text-brand-700 font-bold -rotate-1 select-none">
+              <span className="font-caveat text-base text-[#D4621A] font-bold -rotate-1 select-none">
                 ~ Real shop floor photography
               </span>
             </div>
-            <h1 className="text-3xl sm:text-4xl xl:text-5xl font-black text-slate-900 font-heading">
-              Industrial Imagery & Plant <span className="font-serif italic font-normal text-brand-600">Gallery</span>
+            <h1 className="text-3xl sm:text-4xl xl:text-5xl font-black text-[#2A1A0E] font-heading">
+              Industrial Imagery & Plant <span className="font-serif italic font-normal text-[#D4621A]">Gallery</span>
             </h1>
-            <p className="text-base text-slate-600 leading-relaxed font-sans">
+            <p className="text-base text-[#5C4533] leading-relaxed font-sans">
               Explore photography of our actual machinery, assembly floor, 72-hour burn-in testing bays, timing stations, and client industrial installations.
             </p>
           </div>
@@ -60,10 +60,10 @@ export const GalleryPage: React.FC = () => {
               <button
                 key={tab.id}
                 onClick={() => setSelectedFilter(tab.id as any)}
-                className={`px-4 py-2 rounded-xl transition-all whitespace-nowrap shrink-0 ${
+                className={`px-5 py-2 rounded-full transition-all whitespace-nowrap shrink-0 ${
                   selectedFilter === tab.id
-                    ? 'bg-brand-600 text-white font-bold shadow-md'
-                    : 'bg-slate-100 text-slate-700 hover:text-slate-900 border border-slate-200'
+                    ? 'btn-metallic text-white font-bold shadow-md'
+                    : 'bg-white text-[#5C4533] hover:text-[#2A1A0E] border border-[#E8D4BE]'
                 }`}
               >
                 {tab.label}
@@ -78,33 +78,33 @@ export const GalleryPage: React.FC = () => {
             <ScrollReveal key={item.id} delay={(idx % 6) * 0.08}>
               <div
                 onClick={() => setActiveLightboxIndex(idx)}
-                className="bg-white border border-slate-200 rounded-2xl overflow-hidden group cursor-pointer hover:border-brand-500 hover:shadow-lg transition-all duration-300 shadow-sm"
+                className="bg-white border border-[#E8D4BE] rounded-[28px] overflow-hidden group cursor-pointer hover:border-[#D4621A] hover:shadow-lg transition-all duration-300 shadow-sm"
               >
-                <div className="relative aspect-[4/3] bg-slate-100 overflow-hidden">
+                <div className="relative aspect-[4/3] bg-[#FAFBF7] overflow-hidden">
                   <img
                     src={item.imageUrl}
                     alt={item.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    className={`w-full h-full ${item.imageUrl.startsWith('/images/') ? 'object-contain p-4' : 'object-cover'} group-hover:scale-105 transition-transform duration-500`}
                   />
 
                   {item.badge && (
                     <div className="absolute top-3 left-3">
-                      <span className="text-[10px] font-mono font-bold px-2.5 py-1 rounded bg-white/95 text-brand-700 border border-purple-200 shadow-sm">
+                      <span className="text-[10px] font-mono font-bold px-3 py-1 rounded-full bg-white/95 text-[#D4621A] border border-[#E8D4BE] shadow-sm">
                         {item.badge}
                       </span>
                     </div>
                   )}
 
-                  <div className="absolute bottom-3 right-3 p-2 rounded-lg bg-white/90 text-slate-800 opacity-0 group-hover:opacity-100 transition-opacity border border-slate-200 shadow-md">
-                    <Maximize2 className="w-4 h-4 text-brand-700" />
+                  <div className="absolute bottom-3 right-3 p-2.5 rounded-full bg-white/90 text-[#2A1A0E] opacity-0 group-hover:opacity-100 transition-opacity border border-[#E8D4BE] shadow-md">
+                    <Maximize2 className="w-4 h-4 text-[#D4621A]" />
                   </div>
                 </div>
 
-                <div className="p-5 space-y-2">
-                  <h3 className="font-bold text-slate-900 text-base font-display group-hover:text-brand-700 transition-colors">
+                <div className="p-6 space-y-2">
+                  <h3 className="font-bold text-[#2A1A0E] text-lg font-display group-hover:text-[#D4621A] transition-colors">
                     {item.title}
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed line-clamp-2">
+                  <p className="text-xs text-[#5C4533] leading-relaxed line-clamp-2">
                     {item.description}
                   </p>
                 </div>

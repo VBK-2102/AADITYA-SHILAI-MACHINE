@@ -1,26 +1,26 @@
 export const companyInfo = {
-  name: "Aaditya Shilai Machine",
+  name: "Novel Sewing Machine Co.",
   tagline: "Engineering Machines. Powering Industries.",
-  subtitle: "Industrial Sewing Machinery & Precision Heavy-Duty Stitching Systems",
+  subtitle: "Artisan Boutique Tailoring & Heavy-Duty Industrial Stitching Systems",
   foundedYear: 2005,
   yearsOfExperience: 19,
   customersServed: "2,500+",
   positiveRating: "100%",
   machinesInField: "6,000+",
   address: {
-    line1: "Opposite Kalamba Jail, Kalamba Road",
+    line1: "Industrial Machinery Complex",
     city: "Kolhapur",
     state: "Maharashtra",
     postalCode: "416007",
     country: "India",
-    fullAddress: "Aaditya Shilai Machine, Opposite Kalamba Jail, Kalamba Road, Kolhapur - 416007, Maharashtra, India"
+    fullAddress: "Novel Sewing Machine Co., Industrial Machinery Complex, Kolhapur - 416007, Maharashtra, India"
   },
   contact: {
     primaryPhone: "+91 79729 60490",
     secondaryPhone: "+91 98224 51230",
-    email: "aadityashilaimachine2710@gmail.com",
-    salesEmail: "sales@aadityashilaimachine.com",
-    supportEmail: "support@aadityashilaimachine.com",
+    email: "contact@novelsewingmachinecompany.com",
+    salesEmail: "sales@novelsewingmachinecompany.com",
+    supportEmail: "support@novelsewingmachinecompany.com",
     whatsapp: "+917972960490"
   },
   operatingHours: {
@@ -31,7 +31,7 @@ export const companyInfo = {
     lat: 16.6632,
     lng: 74.2215
   },
-  googleMapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15286.294626154568!2d74.21852!3d16.67104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1001a144e5cfd%3A0x6bcfd3023bb99245!2sKalamba%20Jail%20Road%2C%20Kolhapur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
+  googleMapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15286.294626154568!2d74.21852!3d16.67104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1001a144e5cfd%3A0x6bcfd3023bb99245!2sKolhapur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
   certifications: [
     { title: "ISO 9001:2015", desc: "Quality Management Certified Operations" },
     { title: "CE Compliant", desc: "Industrial Machine Safety Standards" },
@@ -39,7 +39,7 @@ export const companyInfo = {
   ],
   stats: [
     { value: "2005", label: "Pioneering Since", suffix: "" },
-    { value: "2500+", label: "Industrial Clients", suffix: "" },
+    { value: "2,500+", label: "Industrial Clients", suffix: "" },
     { value: "100%", label: "Satisfaction Record", suffix: "" },
     { value: "24h", label: "Breakdown Response", suffix: "max" }
   ]

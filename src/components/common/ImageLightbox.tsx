@@ -64,14 +64,14 @@ export const ImageLightbox: React.FC<ImageLightboxProps> = ({
         <div className="flex items-center space-x-2">
           <button
             onClick={() => setIsZoomed(!isZoomed)}
-            className="p-2 rounded-lg bg-industrial-900 border border-purple-900/50 text-industrial-200 hover:text-white hover:bg-industrial-800 transition-colors"
+            className="p-2 rounded-full bg-black/60 border border-white/20 text-white/80 hover:text-white hover:bg-white/10 transition-colors"
             title={isZoomed ? 'Zoom Out' : 'Zoom In'}
           >
             {isZoomed ? <ZoomOut className="w-5 h-5" /> : <ZoomIn className="w-5 h-5" />}
           </button>
           <button
             onClick={onClose}
-            className="p-2 rounded-lg bg-industrial-900 border border-purple-900/50 text-industrial-200 hover:text-white hover:bg-rose-950 transition-colors"
+            className="p-2 rounded-full bg-black/60 border border-white/20 text-white/80 hover:text-white hover:bg-rose-950/80 transition-colors"
             title="Close Lightbox"
           >
             <X className="w-5 h-5" />
@@ -84,7 +84,7 @@ export const ImageLightbox: React.FC<ImageLightboxProps> = ({
         <img
           src={images[currentIndex]}
           alt={title || 'Machinery Photo'}
-          className={`max-h-[80vh] max-w-full object-contain rounded-lg transition-transform duration-300 select-none ${
+          className={`max-h-[80vh] max-w-full object-contain rounded-2xl transition-transform duration-300 select-none ${
             isZoomed ? 'scale-150 cursor-zoom-out' : 'cursor-zoom-in'
           }`}
           onClick={() => setIsZoomed(!isZoomed)}
@@ -95,14 +95,14 @@ export const ImageLightbox: React.FC<ImageLightboxProps> = ({
           <>
             <button
               onClick={handlePrev}
-              className="absolute left-2 sm:left-4 p-3 rounded-full bg-industrial-900/80 border border-purple-900/60 text-white hover:bg-brand-900/90 transition-all shadow-xl"
+              className="absolute left-2 sm:left-4 p-3 rounded-full bg-black/70 border border-white/20 text-white hover:bg-[#D4621A] transition-all shadow-xl"
               aria-label="Previous image"
             >
               <ChevronLeft className="w-6 h-6" />
             </button>
             <button
               onClick={handleNext}
-              className="absolute right-2 sm:right-4 p-3 rounded-full bg-industrial-900/80 border border-purple-900/60 text-white hover:bg-brand-900/90 transition-all shadow-xl"
+              className="absolute right-2 sm:right-4 p-3 rounded-full bg-black/70 border border-white/20 text-white hover:bg-[#D4621A] transition-all shadow-xl"
               aria-label="Next image"
             >
               <ChevronRight className="w-6 h-6" />
@@ -122,7 +122,7 @@ export const ImageLightbox: React.FC<ImageLightboxProps> = ({
                 setIsZoomed(false);
               }}
               className={`w-14 h-14 rounded-lg overflow-hidden border-2 transition-all shrink-0 ${
-                idx === currentIndex ? 'border-brand-400 scale-105 shadow-purple-glow' : 'border-industrial-800 opacity-60 hover:opacity-100'
+                idx === currentIndex ? 'border-[#F4AE52] scale-105 shadow-md' : 'border-white/20 opacity-60 hover:opacity-100'
               }`}
             >
               <img src={img} alt="Thumb" className="w-full h-full object-cover" />

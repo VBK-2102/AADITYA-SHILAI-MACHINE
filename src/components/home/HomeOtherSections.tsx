@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { 
-  ArrowRight, 
-  Layers, 
-  CheckCircle2, 
-  FileText, 
-  Phone, 
+import {
+  ArrowRight,
+  Layers,
+  CheckCircle2,
+  FileText,
+  Phone,
   Star,
   Quote
 } from 'lucide-react';
@@ -17,20 +17,20 @@ import { companyInfo } from '../../data/companyInfo';
 
 export const CategoriesGridSection: React.FC = () => {
   return (
-    <section className="py-20 bg-slate-50 border-b border-slate-200 transition-colors duration-300">
+    <section className="py-20 bg-[#FAF0E0] border-b border-[#E8D4BE] transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        
+
         <div className="text-center max-w-3xl mx-auto space-y-3 mb-14">
-          <span className="text-xs font-mono uppercase tracking-widest text-brand-700 font-bold block">
+          <span className="text-xs font-mono uppercase tracking-widest text-[#D4621A] font-bold block">
             Comprehensive Industrial Portfolio
           </span>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 font-heading">
-            Machinery <span className="font-serif italic font-normal text-brand-600">Categories</span> by Application
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#2A1A0E] font-heading">
+            Machinery <span className="font-serif italic font-normal text-[#D4621A]">Categories</span> by Application
           </h2>
-          <span className="font-caveat text-2xl text-brand-700 font-bold block select-none">
+          <span className="font-caveat text-2xl text-[#D4621A] font-bold block select-none">
             ~ 8 specialized engineering families
           </span>
-          <p className="text-sm text-slate-600 font-sans">
+          <p className="text-sm text-[#5C4533] font-sans">
             Engineered across 8 specialized disciplines. From micro-pitch fine silks to multi-ply heavy canvas and agro sack stitching.
           </p>
         </div>
@@ -40,39 +40,39 @@ export const CategoriesGridSection: React.FC = () => {
             <Link
               key={cat.id}
               to={`/products/category/${cat.slug}`}
-              className="card-industrial rounded-2xl p-6 group bg-white border border-slate-200 hover:border-brand-600 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between shadow-sm hover:shadow-lg"
+              className="rounded-[28px] p-6 group bg-white border border-[#E8D4BE] hover:border-[#D4621A] hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between shadow-sm hover:shadow-xl"
             >
               <div className="space-y-4">
-                <div className="w-12 h-12 rounded-xl bg-purple-50 border border-purple-200 flex items-center justify-center text-brand-700 group-hover:scale-110 transition-transform shadow-sm">
+                <div className="w-12 h-12 rounded-[16px] bg-[#FAF0E0] border border-[#E8D4BE] flex items-center justify-center text-[#D4621A] group-hover:scale-110 group-hover:bg-[#D4621A] group-hover:text-white transition-all shadow-sm">
                   <Layers className="w-6 h-6" />
                 </div>
 
                 <div>
-                  <h3 className="font-bold text-slate-900 text-base group-hover:text-brand-700 transition-colors font-display">
+                  <h3 className="font-bold text-[#2A1A0E] text-base group-hover:text-[#D4621A] transition-colors font-display">
                     {cat.name}
                   </h3>
-                  <p className="text-xs text-brand-700 font-mono mt-0.5 font-medium">{cat.subtitle}</p>
+                  <p className="text-xs text-[#D4621A] font-mono mt-0.5 font-medium">{cat.subtitle}</p>
                 </div>
 
-                <p className="text-xs text-slate-600 leading-relaxed line-clamp-3">
+                <p className="text-xs text-[#5C4533] leading-relaxed line-clamp-3">
                   {cat.description}
                 </p>
 
                 {/* Popular applications */}
                 <div className="pt-2 flex flex-wrap gap-1.5">
                   {cat.popularApplications.slice(0, 2).map((app, i) => (
-                    <span key={i} className="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-100 text-slate-700 border border-slate-200 font-medium">
+                    <span key={i} className="text-[10px] font-mono px-2.5 py-0.5 rounded-full bg-[#FEF3E2] text-[#5C4533] border border-[#E8D4BE] font-medium">
                       {app}
                     </span>
                   ))}
                 </div>
               </div>
 
-              <div className="pt-5 mt-5 border-t border-slate-100 flex items-center justify-between text-xs font-mono">
-                <span className="text-brand-700 font-bold">{cat.productCount} Models Available</span>
-                <span className="text-slate-800 group-hover:translate-x-1 group-hover:text-brand-700 transition-transform flex items-center font-medium">
+              <div className="pt-5 mt-5 border-t border-[#F0DEC9] flex items-center justify-between text-xs font-mono">
+                <span className="text-[#D4621A] font-bold">{cat.productCount} Models Available</span>
+                <span className="text-[#2A1A0E] group-hover:translate-x-1 group-hover:text-[#D4621A] transition-transform flex items-center font-medium">
                   <span>Explore</span>
-                  <ArrowRight className="w-3.5 h-3.5 ml-1 text-brand-600" />
+                  <ArrowRight className="w-3.5 h-3.5 ml-1 text-[#D4621A]" />
                 </span>
               </div>
             </Link>
@@ -86,25 +86,25 @@ export const CategoriesGridSection: React.FC = () => {
 
 export const ManufacturingCapabilitiesSection: React.FC = () => {
   return (
-    <section className="py-20 border-b border-slate-200 bg-white transition-colors duration-300">
+    <section className="py-20 border-b border-[#E8D4BE] bg-[#FEF3E2] transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        
+
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
           <div className="space-y-3 max-w-2xl">
-            <span className="text-xs font-mono uppercase tracking-widest text-brand-700 font-bold block">
+            <span className="text-xs font-mono uppercase tracking-widest text-[#D4621A] font-bold block">
               In-House Production & Engineering
             </span>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 font-heading">
-              Manufacturing Capabilities & <span className="font-serif italic font-normal text-brand-600">Precision Tooling</span>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#2A1A0E] font-heading">
+              Manufacturing Capabilities & <span className="font-serif italic font-normal text-[#D4621A]">Precision Tooling</span>
             </h2>
-            <p className="text-sm text-slate-600 font-sans">
+            <p className="text-sm text-[#5C4533] font-sans">
               Every critical friction component is machined, heat-treated, and bench-synchronized in our plant to achieve micron tolerances and zero vibration.
             </p>
           </div>
 
           <Link
             to="/manufacturing"
-            className="inline-flex items-center space-x-2 text-xs font-mono font-bold text-brand-700 hover:text-brand-900 bg-slate-50 border border-slate-200 px-4 py-2.5 rounded-xl transition-all shadow-sm hover:shadow shrink-0 font-heading"
+            className="inline-flex items-center space-x-2 text-xs font-mono font-bold text-[#D4621A] hover:text-[#1E1108] bg-white border border-[#E8D4BE] px-5 py-2.5 rounded-full transition-all shadow-sm hover:shadow shrink-0 font-heading"
           >
             <span>Explore All 6 Phases &rarr;</span>
           </Link>
@@ -114,27 +114,27 @@ export const ManufacturingCapabilitiesSection: React.FC = () => {
           {manufacturingCapabilities.slice(0, 6).map((cap) => (
             <div
               key={cap.id}
-              className="bg-slate-50 border border-slate-200 rounded-2xl p-6 space-y-4 hover:border-brand-600 transition-all group shadow-sm hover:shadow-md"
+              className="bg-white border border-[#E8D4BE] rounded-[28px] p-6 space-y-4 hover:border-[#D4621A] transition-all group shadow-sm hover:shadow-md"
             >
               <div className="flex items-center justify-between">
-                <span className="text-xs font-mono font-bold text-brand-700 px-2.5 py-1 rounded bg-purple-50 border border-purple-200">
+                <span className="text-xs font-mono font-bold text-[#D4621A] px-3 py-1 rounded-full bg-[#FAF0E0] border border-[#E8D4BE]">
                   {cap.phase}
                 </span>
-                <span className="text-[11px] font-mono text-emerald-700 font-semibold">{cap.qualityTolerance}</span>
+                <span className="text-[11px] font-mono text-[#D4621A] font-semibold">{cap.qualityTolerance}</span>
               </div>
 
-              <h3 className="font-bold text-slate-900 text-base font-display group-hover:text-brand-700 transition-colors">
+              <h3 className="font-bold text-[#2A1A0E] text-base font-display group-hover:text-[#D4621A] transition-colors">
                 {cap.title}
               </h3>
 
-              <p className="text-xs text-slate-600 leading-relaxed">
+              <p className="text-xs text-[#5C4533] leading-relaxed">
                 {cap.description}
               </p>
 
-              <div className="pt-3 border-t border-slate-200 space-y-1.5 text-xs">
+              <div className="pt-3 border-t border-[#F0DEC9] space-y-1.5 text-xs">
                 {cap.specifications.slice(0, 2).map((s, idx) => (
-                  <div key={idx} className="flex items-start space-x-2 text-slate-600">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-brand-600 shrink-0 mt-0.5" />
+                  <div key={idx} className="flex items-start space-x-2 text-[#5C4533]">
+                    <CheckCircle2 className="w-3.5 h-3.5 text-[#D4621A] shrink-0 mt-0.5" />
                     <span className="line-clamp-1">{s}</span>
                   </div>
                 ))}
@@ -150,22 +150,22 @@ export const ManufacturingCapabilitiesSection: React.FC = () => {
 
 export const IndustriesServedSection: React.FC = () => {
   return (
-    <section className="py-20 bg-slate-50 border-b border-slate-200 transition-colors duration-300">
+    <section className="py-20 bg-[#FAF0E0] border-b border-[#E8D4BE] transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        
+
         <div className="text-center max-w-3xl mx-auto space-y-3 mb-14">
           <div className="inline-flex items-center gap-2">
-            <span className="text-xs font-mono uppercase tracking-widest text-brand-700 font-bold block">
+            <span className="text-xs font-mono uppercase tracking-widest text-[#D4621A] font-bold block">
               Target Industry Applications
             </span>
-            <span className="font-caveat text-base text-brand-700 font-bold -rotate-1 select-none">
+            <span className="font-caveat text-base text-[#D4621A] font-bold -rotate-1 select-none">
               ~ Tailored engineering
             </span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 font-heading">
-            Industries Powered by <span className="font-serif italic font-normal text-brand-600">Aaditya</span> Machinery
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#2A1A0E] font-heading">
+            Industries Powered by <span className="font-serif italic font-normal text-[#D4621A]">Novel</span> Machinery
           </h2>
-          <p className="text-sm text-slate-600 font-sans">
+          <p className="text-sm text-[#5C4533] font-sans">
             Tailored engineering solutions configured to the exact fabric thickness, duty cycle, and speed criteria of real production floors.
           </p>
         </div>
@@ -174,34 +174,34 @@ export const IndustriesServedSection: React.FC = () => {
           {industries.slice(0, 6).map((ind) => (
             <div
               key={ind.id}
-              className="bg-white rounded-2xl overflow-hidden border border-slate-200 hover:border-brand-600 transition-all group flex flex-col justify-between shadow-sm hover:shadow-lg"
+              className="bg-white rounded-[28px] overflow-hidden border border-[#E8D4BE] hover:border-[#D4621A] transition-all group flex flex-col justify-between shadow-sm hover:shadow-xl"
             >
               <div>
-                <div className="relative aspect-video overflow-hidden bg-slate-100">
+                <div className="relative aspect-video overflow-hidden bg-white">
                   <img
                     src={ind.imageUrl}
                     alt={ind.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    className={`w-full h-full ${ind.imageUrl.startsWith('/images/') ? 'object-contain p-2' : 'object-cover'} group-hover:scale-105 transition-transform duration-500`}
                   />
-                  <div className="absolute bottom-3 left-4 right-4 bg-white/95 backdrop-blur-sm p-2.5 rounded-lg border border-slate-200 shadow-sm">
-                    <h3 className="font-bold text-slate-900 text-sm font-display">
+                  <div className="absolute bottom-3 left-4 right-4 bg-white/95 backdrop-blur-sm p-3 rounded-2xl border border-[#E8D4BE] shadow-sm">
+                    <h3 className="font-bold text-[#2A1A0E] text-sm font-display">
                       {ind.title}
                     </h3>
                   </div>
                 </div>
 
-                <div className="p-5 space-y-3 text-xs text-slate-600">
+                <div className="p-6 space-y-3 text-xs text-[#5C4533]">
                   <p className="leading-relaxed">
                     {ind.description}
                   </p>
 
-                  <div className="space-y-1 pt-1">
-                    <span className="font-mono text-brand-700 font-bold block text-[10px] uppercase">
+                  <div className="space-y-1.5 pt-1">
+                    <span className="font-mono text-[#D4621A] font-bold block text-[10px] uppercase">
                       Recommended Models:
                     </span>
-                    <div className="flex flex-wrap gap-1">
+                    <div className="flex flex-wrap gap-1.5">
                       {ind.recommendedMachines.map((m, i) => (
-                        <span key={i} className="font-mono text-[10px] px-2 py-0.5 rounded bg-purple-50 text-brand-700 border border-purple-200 font-semibold">
+                        <span key={i} className="font-mono text-[10px] px-2.5 py-0.5 rounded-full bg-[#FAF0E0] text-[#D4621A] border border-[#E8D4BE] font-semibold">
                           {m}
                         </span>
                       ))}
@@ -210,10 +210,10 @@ export const IndustriesServedSection: React.FC = () => {
                 </div>
               </div>
 
-              <div className="p-5 pt-0">
+              <div className="p-6 pt-0">
                 <Link
                   to="/industries"
-                  className="w-full btn-dark-metallic text-xs font-semibold py-2 rounded-lg flex items-center justify-center space-x-1"
+                  className="w-full btn-dark-metallic text-xs font-semibold py-2.5 rounded-full flex items-center justify-center space-x-1"
                 >
                   <span>View Technical Case Study &rarr;</span>
                 </Link>
@@ -229,38 +229,38 @@ export const IndustriesServedSection: React.FC = () => {
 
 export const QualityCommitmentSection: React.FC = () => {
   return (
-    <section className="py-20 border-b border-slate-200 bg-white transition-colors duration-300">
+    <section className="py-20 border-b border-[#E8D4BE] bg-[#FEF3E2] transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          
+
           <div className="lg:col-span-5 space-y-6">
             <div className="inline-flex items-center gap-2">
-              <span className="text-xs font-mono uppercase tracking-widest text-brand-700 font-bold block">
+              <span className="text-xs font-mono uppercase tracking-widest text-[#D4621A] font-bold block">
                 Uncompromising Reliability
               </span>
-              <span className="font-caveat text-base text-brand-700 font-bold -rotate-1 select-none">
+              <span className="font-caveat text-base text-[#D4621A] font-bold -rotate-1 select-none">
                 ~ Zero-failure bench testing
               </span>
             </div>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 font-heading leading-tight">
-              Our 7-Stage <span className="font-serif italic font-normal text-brand-600">Quality Assurance</span> Protocol
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#2A1A0E] font-heading leading-tight">
+              Our 7-Stage <span className="font-serif italic font-normal text-[#D4621A]">Quality Assurance</span> Protocol
             </h2>
-            <p className="text-sm text-slate-600 leading-relaxed font-sans">
-              Every single machine head assembled or repaired at Aaditya Shilai Machine is subjected to rigorous dimensional, acoustic, thermal, and 72-hour continuous burn-in audits before dispatch.
+            <p className="text-sm text-[#5C4533] leading-relaxed font-sans">
+              Every single machine head assembled or repaired at Novel Sewing Machine Co. is subjected to rigorous dimensional, acoustic, thermal, and 72-hour continuous burn-in audits before dispatch.
             </p>
 
             <div className="space-y-3 text-xs font-mono">
-              <div className="flex items-center space-x-2 text-slate-800">
-                <CheckCircle2 className="w-4 h-4 text-brand-600 shrink-0" />
-                <span>Zero Tolerance on Needle-to-Hook Clearance (<span className="font-sora font-semibold text-brand-700">0.05 mm</span>)</span>
+              <div className="flex items-center space-x-2 text-[#2A1A0E]">
+                <CheckCircle2 className="w-4 h-4 text-[#D4621A] shrink-0" />
+                <span>Zero Tolerance on Needle-to-Hook Clearance (<span className="font-sora font-semibold text-[#D4621A]">0.05 mm</span>)</span>
               </div>
-              <div className="flex items-center space-x-2 text-slate-800">
-                <CheckCircle2 className="w-4 h-4 text-brand-600 shrink-0" />
+              <div className="flex items-center space-x-2 text-[#2A1A0E]">
+                <CheckCircle2 className="w-4 h-4 text-[#D4621A] shrink-0" />
                 <span>Induction Vacuum Hardened Carbon Steel Gears</span>
               </div>
-              <div className="flex items-center space-x-2 text-slate-800">
-                <CheckCircle2 className="w-4 h-4 text-brand-600 shrink-0" />
+              <div className="flex items-center space-x-2 text-[#2A1A0E]">
+                <CheckCircle2 className="w-4 h-4 text-[#D4621A] shrink-0" />
                 <span>100% Bench Tested Under Real Multi-Layer Heavy Fabrics</span>
               </div>
             </div>
@@ -268,10 +268,10 @@ export const QualityCommitmentSection: React.FC = () => {
             <div className="pt-2">
               <Link
                 to="/quality"
-                className="btn-metallic text-white font-semibold text-xs px-6 py-3 rounded-xl inline-flex items-center space-x-2 shadow-md"
+                className="btn-metallic text-white font-semibold text-xs px-7 py-3 rounded-full inline-flex items-center space-x-2 shadow-md"
               >
                 <span>Read Full QA Standards & Certifications</span>
-                <ArrowRight className="w-4 h-4" />
+                <ArrowRight className="w-4 h-4 text-[#F4AE52]" />
               </Link>
             </div>
           </div>
@@ -280,15 +280,15 @@ export const QualityCommitmentSection: React.FC = () => {
             {qualitySteps.slice(0, 4).map((qs) => (
               <div
                 key={qs.step}
-                className="bg-slate-50 border border-slate-200 rounded-xl p-4 flex items-start space-x-4 hover:border-brand-600 transition-colors shadow-sm"
+                className="bg-white border border-[#E8D4BE] rounded-[24px] p-5 flex items-start space-x-4 hover:border-[#D4621A] transition-colors shadow-sm"
               >
-                <div className="w-10 h-10 rounded-lg bg-purple-50 border border-purple-200 text-brand-700 font-sora font-bold flex items-center justify-center shrink-0">
+                <div className="w-11 h-11 rounded-2xl bg-[#D4621A] text-[#F4AE52] font-sora font-bold flex items-center justify-center shrink-0 shadow-sm">
                   0{qs.step}
                 </div>
                 <div className="space-y-1">
-                  <h4 className="font-bold text-slate-900 text-sm font-heading">{qs.title}</h4>
-                  <p className="text-xs text-slate-600 leading-relaxed font-sans">{qs.description}</p>
-                  <span className="text-[10px] font-mono text-brand-700 font-semibold block">{qs.standard}</span>
+                  <h4 className="font-bold text-[#2A1A0E] text-sm font-heading">{qs.title}</h4>
+                  <p className="text-xs text-[#5C4533] leading-relaxed font-sans">{qs.description}</p>
+                  <span className="text-[10px] font-mono text-[#D4621A] font-semibold block">{qs.standard}</span>
                 </div>
               </div>
             ))}
@@ -304,7 +304,7 @@ export const QualityCommitmentSection: React.FC = () => {
 export const TestimonialsSection: React.FC = () => {
   const testimonials = [
     {
-      quote: "Aaditya Shilai Machine repaired our heavy denim umbrella machines like they were brand new! Prompt, affordable, and unmatched mechanical knowledge in Kolhapur.",
+      quote: "Novel Sewing Machine Co. repaired our heavy denim umbrella machines like they were brand new! Prompt, affordable, and unmatched mechanical knowledge in Kolhapur.",
       author: "Ganesh Kamble",
       role: "Lead Master Tailor & Boutique Owner",
       location: "Kolhapur, Maharashtra",
@@ -327,22 +327,22 @@ export const TestimonialsSection: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 bg-slate-50 border-b border-slate-200 transition-colors duration-300">
+    <section className="py-20 bg-[#FAF0E0] border-b border-[#E8D4BE] transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        
+
         <div className="text-center max-w-3xl mx-auto space-y-3 mb-14">
           <div className="inline-flex items-center gap-2">
-            <span className="text-xs font-mono uppercase tracking-widest text-brand-700 font-bold block">
+            <span className="text-xs font-mono uppercase tracking-widest text-[#D4621A] font-bold block">
               Verified Customer Trust
             </span>
-            <span className="font-caveat text-base text-brand-700 font-bold -rotate-1 select-none">
+            <span className="font-caveat text-base text-[#D4621A] font-bold -rotate-1 select-none">
               ~ Real operator reviews
             </span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 font-heading">
-            What Industrial Operators & <span className="font-serif italic font-normal text-brand-600">Tailors</span> Say
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#2A1A0E] font-heading">
+            What Industrial Operators & <span className="font-serif italic font-normal text-[#D4621A]">Tailors</span> Say
           </h2>
-          <p className="text-sm text-slate-600 font-sans">
+          <p className="text-sm text-[#5C4533] font-sans">
             Backed by 19+ years of word-of-mouth reputation and 100% positive customer satisfaction across the region.
           </p>
         </div>
@@ -351,7 +351,7 @@ export const TestimonialsSection: React.FC = () => {
           {testimonials.map((t, idx) => (
             <div
               key={idx}
-              className="bg-white border border-slate-200 rounded-2xl p-6 relative flex flex-col justify-between hover:border-brand-600 transition-all shadow-sm hover:shadow-md"
+              className="bg-white border border-[#E8D4BE] rounded-[28px] p-7 relative flex flex-col justify-between hover:border-[#D4621A] transition-all shadow-sm hover:shadow-xl"
             >
               <div className="space-y-4">
                 <div className="flex items-center space-x-1 text-amber-500">
@@ -360,18 +360,18 @@ export const TestimonialsSection: React.FC = () => {
                   ))}
                 </div>
 
-                <p className="text-sm text-slate-700 italic leading-relaxed font-sans">
+                <p className="text-sm text-[#2A1A0E] italic leading-relaxed font-sans">
                   "{t.quote}"
                 </p>
               </div>
 
-              <div className="pt-6 mt-6 border-t border-slate-100 flex items-center justify-between">
+              <div className="pt-6 mt-6 border-t border-[#F0DEC9] flex items-center justify-between">
                 <div>
-                  <h4 className="font-bold text-slate-900 text-sm font-heading">{t.author}</h4>
-                  <span className="text-xs text-brand-700 font-semibold block">{t.role}</span>
-                  <span className="text-[10px] text-slate-500 font-mono">{t.location}</span>
+                  <h4 className="font-bold text-[#2A1A0E] text-sm font-heading">{t.author}</h4>
+                  <span className="text-xs text-[#D4621A] font-semibold block">{t.role}</span>
+                  <span className="text-[10px] text-[#5C4533] font-mono">{t.location}</span>
                 </div>
-                <Quote className="w-8 h-8 text-purple-200" />
+                <Quote className="w-8 h-8 text-[#E8D4BE]" />
               </div>
             </div>
           ))}
@@ -384,46 +384,54 @@ export const TestimonialsSection: React.FC = () => {
 
 export const CallToActionBanner: React.FC = () => {
   return (
-    <section className="py-16 bg-purple-50 border-b border-purple-200 relative overflow-hidden transition-colors duration-300">
+    <section className="py-20 bg-[#FEF3E2] border-b border-[#E8D4BE] relative overflow-hidden transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
-          
-          <div className="space-y-2 text-center lg:text-left max-w-2xl">
-            <div className="inline-flex items-center gap-2">
-              <span className="text-xs font-mono uppercase tracking-widest text-brand-700 font-bold block">
-                Direct Factory Quotations & Technical Sizing
-              </span>
-              <span className="font-caveat text-base text-brand-700 font-bold -rotate-1 select-none">
-                ~ 4-hour quick RFQ
-              </span>
+
+        {/* Signature High-Contrast Dark Emerald Container */}
+        <div className="relative rounded-[36px] bg-[#2A1A0E] border border-[#4D3420] p-8 sm:p-14 shadow-2xl overflow-hidden text-white">
+
+          {/* Subtle lime glow background */}
+          <div className="absolute -right-20 -bottom-20 w-80 h-80 bg-[#F4AE52]/10 rounded-full blur-3xl pointer-events-none"></div>
+
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-10 relative z-10">
+            <div className="space-y-3 text-center lg:text-left max-w-2xl">
+              <div className="inline-flex items-center gap-2">
+                <span className="text-xs font-mono uppercase tracking-widest text-[#F4AE52] font-bold block">
+                  Direct Factory Quotations & Technical Sizing
+                </span>
+                <span className="font-caveat text-base text-[#D4621A] font-bold -rotate-1 select-none">
+                  ~ 4-hour quick RFQ
+                </span>
+              </div>
+              <h2 className="text-2xl sm:text-4xl xl:text-5xl font-black text-white font-heading leading-tight">
+                Ready to Upgrade Your <span className="font-serif italic font-normal text-[#F4AE52]">Factory Line</span> or Workshop?
+              </h2>
+              <p className="text-sm sm:text-base text-[#E8D4BE]/80 font-sans leading-relaxed">
+                Submit your required machinery specifications, fabric layers, and quantities. Our lead engineering team will provide a formal B2B quotation within 4 hours.
+              </p>
             </div>
-            <h2 className="text-2xl sm:text-3xl xl:text-4xl font-extrabold text-slate-900 font-heading">
-              Ready to Upgrade Your <span className="font-serif italic font-normal text-brand-600">Factory Line</span> or Workshop?
-            </h2>
-            <p className="text-sm text-slate-600 font-sans">
-              Submit your required machinery specifications, fabric layers, and quantities. Our lead engineering team will provide a formal B2B quotation within 4 hours.
-            </p>
-          </div>
 
-          <div className="flex flex-col sm:flex-row items-center space-y-3 sm:space-y-0 sm:space-x-4 shrink-0">
-            <Link
-              to="/request-quote"
-              className="btn-metallic text-white font-bold text-sm px-7 py-3.5 rounded-xl shadow-md hover:shadow-lg flex items-center space-x-2 w-full sm:w-auto justify-center font-heading"
-            >
-              <FileText className="w-4 h-4 text-purple-100" />
-              <span>Submit Formal RFQ</span>
-            </Link>
+            <div className="flex flex-col sm:flex-row items-center space-y-3.5 sm:space-y-0 sm:space-x-4 shrink-0 w-full sm:w-auto">
+              <Link
+                to="/request-quote"
+                className="btn-neon font-bold text-sm px-8 py-4 rounded-full shadow-lg flex items-center space-x-2 w-full sm:w-auto justify-center font-heading transition-all"
+              >
+                <FileText className="w-4 h-4 text-[#D4621A]" />
+                <span>Submit Formal RFQ</span>
+              </Link>
 
-            <a
-              href={`tel:${companyInfo.contact.primaryPhone.replace(/\s+/g, '')}`}
-              className="btn-dark-metallic text-sm font-semibold px-6 py-3.5 rounded-xl flex items-center space-x-2 w-full sm:w-auto justify-center font-heading"
-            >
-              <Phone className="w-4 h-4 text-brand-600" />
-              <span>Call: {companyInfo.contact.primaryPhone}</span>
-            </a>
+              <a
+                href={`tel:${companyInfo.contact.primaryPhone.replace(/\s+/g, '')}`}
+                className="bg-white/10 hover:bg-white/20 text-white border border-white/20 text-sm font-semibold px-7 py-4 rounded-full flex items-center space-x-2 w-full sm:w-auto justify-center font-heading transition-all"
+              >
+                <Phone className="w-4 h-4 text-[#F4AE52]" />
+                <span>Call: {companyInfo.contact.primaryPhone}</span>
+              </a>
+            </div>
           </div>
 
         </div>
+
       </div>
     </section>
   );

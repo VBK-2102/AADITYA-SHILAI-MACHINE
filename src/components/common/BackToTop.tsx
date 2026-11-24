@@ -33,7 +33,7 @@ export const BackToTop: React.FC = () => {
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.8 }}
           onClick={scrollToTop}
-          className="fixed bottom-6 right-6 z-[90] p-3 rounded-xl bg-white text-brand-700 hover:text-white hover:bg-brand-600 border border-purple-200 shadow-lg hover:shadow-xl transition-all duration-300"
+          className="fixed bottom-6 right-6 z-[90] p-3.5 rounded-full bg-[#D4621A] text-white hover:bg-[#B84F11] border border-[#E8D4BE] shadow-xl transition-all duration-300"
           aria-label="Scroll back to top"
           title="Back to Top"
         >

@@ -13,16 +13,16 @@ interface ScrollRevealProps {
 export const ScrollReveal: React.FC<ScrollRevealProps> = ({
   children,
   delay = 0,
-  duration = 0.6,
-  yOffset = 36,
+  duration = 0.5,
+  yOffset = 24,
   className = '',
-  once = false
+  once = true
 }) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: yOffset }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once, amount: 0.12 }}
+      viewport={{ once, amount: 0.05, margin: '0px 0px -40px 0px' }}
       transition={{
         duration,
         delay,

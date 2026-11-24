@@ -1,19 +1,19 @@
-# AADITYA SHILAI MACHINE (आदित्य शिलाई मशीन)
+# NOVEL SEWING MACHINE CO. (Novel Sewing Machine Co.)
 ### Industrial Machinery & High-Torque Precision Stitching Systems
 **Engineering Machines. Powering Industries.**
 
-Established in **2005** in Kolhapur, Maharashtra, **Aaditya Shilai Machine** is Western India's premier manufacturer, supplier, and technical service hub for heavy-duty industrial umbrella sewing machines, computerized direct-drive lockstitch units, multi-pattern zig-zag embroidery systems, overlockers, and high-tensile bag closing machinery.
+Established in **2005** in Kolhapur, Maharashtra, **NOVEL SEWING MACHINE CO.** is Western India's premier manufacturer, supplier, and technical service hub for heavy-duty industrial umbrella sewing machines, computerized direct-drive lockstitch units, multi-pattern zig-zag embroidery systems, overlockers, and high-tensile bag closing machinery.
 
 ---
 
 ## 🏭 Company Information (Verified)
 
-- **Official Name**: Aaditya Shilai Machine (आदित्य शिलाई मशीन)
+- **Official Name**: NOVEL SEWING MACHINE CO. (Novel Sewing Machine Co.)
 - **Year Established**: 2005 (19+ Years of Precision Engineering)
-- **Facility Address**: Opposite Kalamba Jail, Kalamba Road, Kolhapur - 416007, Maharashtra, India
+- **Facility Address**: Industrial Machinery Complex, Kolhapur - 416007, Maharashtra, India
 - **Primary Phone**: `+91 79729 60490`
 - **Secondary Phone**: `+91 98224 51230`
-- **Official Email**: `aadityashilaimachine2710@gmail.com` / `info@aadityashilaimachine.com`
+- **Official Email**: `NOVEL SEWING MACHINE CO.2710@gmail.com` / `info@NOVEL SEWING MACHINE CO..com`
 - **Verified Record**: 2,500+ Industrial and Tailoring Clients &bull; 100% Satisfaction Rating
 - **Certifications**: ISO 9001:2015 QA Compliant &bull; CE Conformity &bull; 7-Stage QC Protocol
 
@@ -67,7 +67,7 @@ Established in **2005** in Kolhapur, Maharashtra, **Aaditya Shilai Machine** is 
 
 Access the management dashboard at `/admin/login`:
 
-- **Email**: `admin@aaditya.com`
+- **Email**: `admin@novel.com`
 - **Password**: `admin123`
 
 ### Admin Features:
@@ -86,7 +86,7 @@ Access the management dashboard at `/admin/login`:
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/aaditya-shilai-machine.git
+git clone https://github.com/your-org/novel-shilai-machine.git
 
 # Navigate to project folder
 cd "New folder (2)"
@@ -127,4 +127,4 @@ Push your repository to GitHub or GitLab and connect to Netlify with build comma
 ---
 
 ## 📄 License
-&copy; 2005–2026 **Aaditya Shilai Machine (आदित्य शिलाई मशीन)**. All rights reserved.
+&copy; 2005–2026 **NOVEL SEWING MACHINE CO. (Novel Sewing Machine Co.)**. All rights reserved.

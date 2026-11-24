@@ -19,7 +19,7 @@ export const infrastructureFacilities: InfrastructureFacility[] = [
       'Overhead pressurized lubrication distribution system',
       'Dual optical timing stations with digital dial gauges'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80'
+    imageUrl: '/images/novel/Frame-67-1.png'
   },
   {
     id: 'testing-bays',
@@ -32,7 +32,7 @@ export const infrastructureFacilities: InfrastructureFacility[] = [
       'Digital acoustic sound meters and vibration spectrum analyzers',
       'Calibrated seam tensile pull testers'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=1000&q=80'
+    imageUrl: '/images/novel/Group-18.png'
   },
   {
     id: 'parts-warehouse',
@@ -45,7 +45,7 @@ export const infrastructureFacilities: InfrastructureFacility[] = [
       'Rapid barcoded inventory retrieval system',
       'Emergency same-day dispatch staging area'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1000&q=80'
+    imageUrl: '/images/novel/Frame-68.png'
   },
   {
     id: 'motor-lab',
@@ -58,7 +58,7 @@ export const infrastructureFacilities: InfrastructureFacility[] = [
       'DSP firmware programming & calibration stations',
       'Burn-in load resistance banks'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=1000&q=80'
+    imageUrl: '/images/novel/Frame-65.png'
   },
   {
     id: 'demo-center',
@@ -71,6 +71,6 @@ export const infrastructureFacilities: InfrastructureFacility[] = [
       'Audiovisual maintenance projection screen',
       'Dedicated engineering consultation desk'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?auto=format&fit=crop&w=1000&q=80'
+    imageUrl: '/images/novel/Frame-66-1.png'
   }
 ];

@@ -11,19 +11,19 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [isAuthenticated, setIsAuthenticated] = useState<boolean>(() => {
-    return sessionStorage.getItem('aaditya_admin_auth') === 'true';
+    return sessionStorage.getItem('novel_admin_auth') === 'true';
   });
 
   const [user, setUser] = useState<{ email: string; name: string; role: string } | null>(() => {
-    const stored = sessionStorage.getItem('aaditya_admin_user');
+    const stored = sessionStorage.getItem('novel_admin_user');
     return stored ? JSON.parse(stored) : null;
   });
 
   useEffect(() => {
     if (isAuthenticated && !user) {
       setUser({
-        email: 'admin@aaditya.com',
-        name: 'Aaditya Operations Manager',
+        email: 'admin@novelsewingmachinecompany.com',
+        name: 'Novel Operations Manager',
         role: 'Administrator'
       });
     }
@@ -31,16 +31,16 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const login = (email: string, pass: string): boolean => {
     // Admin credentials
-    if ((email.trim().toLowerCase() === 'admin@aaditya.com' || email.trim().toLowerCase() === 'admin') && pass === 'admin123') {
+    if ((email.trim().toLowerCase() === 'admin@novelsewingmachinecompany.com' || email.trim().toLowerCase() === 'admin') && pass === 'admin123') {
       setIsAuthenticated(true);
       const adminUser = {
-        email: 'admin@aaditya.com',
-        name: 'Aaditya Operations Manager',
+        email: 'admin@novelsewingmachinecompany.com',
+        name: 'Novel Operations Manager',
         role: 'Administrator'
       };
       setUser(adminUser);
-      sessionStorage.setItem('aaditya_admin_auth', 'true');
-      sessionStorage.setItem('aaditya_admin_user', JSON.stringify(adminUser));
+      sessionStorage.setItem('novel_admin_auth', 'true');
+      sessionStorage.setItem('novel_admin_user', JSON.stringify(adminUser));
       return true;
     }
     return false;
@@ -49,8 +49,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const logout = () => {
     setIsAuthenticated(false);
     setUser(null);
-    sessionStorage.removeItem('aaditya_admin_auth');
-    sessionStorage.removeItem('aaditya_admin_user');
+    sessionStorage.removeItem('novel_admin_auth');
+    sessionStorage.removeItem('novel_admin_user');
   };
 
   return (

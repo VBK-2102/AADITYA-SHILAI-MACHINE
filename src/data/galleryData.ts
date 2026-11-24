@@ -2,99 +2,99 @@ import { GalleryItem } from '../types';
 
 export const galleryItems: GalleryItem[] = [
   {
-    id: 'gal-1',
-    title: 'Aaditya High-Torque Umbrella Machine ASM-UMB-950',
-    category: 'machinery',
-    imageUrl: 'https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=1200&q=85',
-    description: 'Heavy-duty umbrella round-arm stitching machine with hardened steel oscillating shuttle and extended throat space.',
-    badge: 'Heavy Umbrella'
+    "id": "gal-0",
+    "title": "Novel Deluxe Boutique Tailoring Machine with Treadle Stand ASM-DLX-200",
+    "category": "machinery",
+    "imageUrl": "/images/novel/Frame-35.png",
+    "description": "Iconic artisan boutique tailoring machine with cast-iron treadle stand, laminated wooden table, and dual manual/motor drive capability.",
+    "badge": "Boutique Tailor"
   },
   {
-    id: 'gal-2',
-    title: 'Tailor Master Precision Lockstitch Unit ASM-TM-101',
-    category: 'machinery',
-    imageUrl: 'https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?auto=format&fit=crop&w=1200&q=85',
-    description: 'Boutique and apparel factory lockstitch machine with automatic rotary lubrication and low-noise kinematics.',
-    badge: 'Precision Tailor'
+    "id": "gal-bt-1",
+    "title": "Novel TA-1 Tailor Precision Stitching Machine Head",
+    "category": "machinery",
+    "imageUrl": "/images/novel/TA-1-TAILOR.png",
+    "description": "Classic single-needle artisan lockstitch head engineered for smooth feed dogs and balanced tension on silk and cotton.",
+    "badge": "Artisan Head"
   },
   {
-    id: 'gal-3',
-    title: 'Direct-Drive Computerized Lockstitch ASM-DD-9000',
-    category: 'machinery',
-    imageUrl: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=85',
-    description: 'NextGen servo-integrated lockstitch featuring automatic double-blade thread trimmer and digital OLED control panel.',
-    badge: 'Direct-Drive'
+    "id": "gal-bt-2",
+    "title": "Novel 95-T-10 Industrial Heavy-Duty Umbrella Machine",
+    "category": "machinery",
+    "imageUrl": "/images/novel/95-T-10-INDUSTRIAL-1.png",
+    "description": "High-torque round-arm umbrella unit designed for thick canvas, denim, and multi-ply structural fabrics.",
+    "badge": "Industrial Umbrella"
   },
   {
-    id: 'gal-4',
-    title: 'High-Speed 5-Thread Industrial Overlock ASM-OV-757',
-    category: 'machinery',
-    imageUrl: 'https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=1200&q=85',
-    description: '6,500 SPM safety stitch overlock machine with micro differential feed and tungsten carbide trimming knives.',
-    badge: 'Overlock'
+    "id": "gal-bt-3",
+    "title": "Novel Designer Boutique Premium Gear-Type Machine",
+    "category": "machinery",
+    "imageUrl": "/images/novel/DESIGNER-PREMIUM-GEAR-1.png",
+    "description": "Hardened internal gears delivering wave-free precision stitching, pico edge finishes, and designer fashion embroidery.",
+    "badge": "Designer Gear"
   },
   {
-    id: 'gal-5',
-    title: 'Main Industrial Assembly Floor in Kolhapur',
-    category: 'facility',
-    imageUrl: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=85',
-    description: 'Our 6,500 sq ft main assembly bay where skilled technicians stage and assemble heavy-duty sewing machine heads.',
-    badge: 'Facility'
+    "id": "gal-bt-4",
+    "title": "Novel TA-1 Premium Tailoring Sewing Machine",
+    "category": "machinery",
+    "imageUrl": "/images/novel/TA-1-PREMIUM.png",
+    "description": "Balanced link-motion take-up with micro-pitch feed regulation for premium suits, sherwanis, and blouses.",
+    "badge": "Premium Tailor"
   },
   {
-    id: 'gal-6',
-    title: 'Automated 72-Hour Load & Burn-In Testing Station',
-    category: 'quality',
-    imageUrl: 'https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=1200&q=85',
-    description: 'Every machine head undergoes continuous automated high-speed stitching through heavy denim and leather before packaging.',
-    badge: 'Quality Control'
+    "id": "gal-bt-5",
+    "title": "Novel 31-K-15 Leather Master & Heavy Stitching Machine",
+    "category": "machinery",
+    "imageUrl": "/images/novel/31-K-15-LEATHER-MASTER-1.png",
+    "description": "Extreme-torque walking foot mechanism capable of penetrating tough saddle leathers and multiple layers of denim.",
+    "badge": "Leather Master"
   },
   {
-    id: 'gal-7',
-    title: 'Precision Needle-to-Hook Timing Calibration',
-    category: 'assembly',
-    imageUrl: 'https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?auto=format&fit=crop&w=1200&q=85',
-    description: 'Senior timing technician adjusting rotary hook clearance to 0.05 mm under high-intensity optical illumination.',
-    badge: 'Assembly'
+    "id": "gal-bt-6",
+    "title": "Tailoring Workstation with Integrated Table Assembly",
+    "category": "assembly",
+    "imageUrl": "/images/novel/Frame-37.png",
+    "description": "Precision alignment bench featuring laminated teak table, thread stand, and vibration-damped motor mounting.",
+    "badge": "Workstation Setup"
   },
   {
-    id: 'gal-8',
-    title: 'Industrial Portable Bag Closer ASM-BC-26',
-    category: 'machinery',
-    imageUrl: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=85',
-    description: 'High-tensile handheld sack closer sealing 50kg polypropylene and jute bags at agro packaging facilities.',
-    badge: 'Bag Closer'
+    "id": "gal-bt-7",
+    "title": "Heavy-Duty Treadle Stand & Workstation Rigging",
+    "category": "assembly",
+    "imageUrl": "/images/novel/Frame-38.png",
+    "description": "Cast-iron treadle stand assembly with ball-bearing pitman rod for zero-fatigue manual tailoring operation.",
+    "badge": "Treadle Rig"
   },
   {
-    id: 'gal-9',
-    title: 'Genuine Spare Parts & Component Warehousing',
-    category: 'facility',
-    imageUrl: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=85',
-    description: 'Cataloged inventory of over 12,000 genuine components, gears, bobbins, motors, and needle plates ready for instant dispatch.',
-    badge: 'Warehouse'
+    "id": "gal-bt-8",
+    "title": "Novel Manufacturing Plant Staging & Precision Bay",
+    "category": "facility",
+    "imageUrl": "/images/novel/Frame-67-1.png",
+    "description": "Staging and mechanical assembly line for industrial umbrella and artisan lockstitch machines.",
+    "badge": "Assembly Floor"
   },
   {
-    id: 'gal-10',
-    title: 'Cylinder Bed Compound Walking Foot Machine ASM-CB-335',
-    category: 'machinery',
-    imageUrl: 'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1200&q=85',
-    description: 'Slender 50mm cylinder arm executing curved topstitch lines on handcrafted leather boots and motorcycle luggage.',
-    badge: 'Leather Specialist'
+    "id": "gal-bt-9",
+    "title": "Novel Machinery Showroom & Demonstration Suite",
+    "category": "facility",
+    "imageUrl": "/images/novel/Frame-65.png",
+    "description": "Modern exhibition showroom displaying complete line of boutique, family, and heavy industrial sewing systems.",
+    "badge": "Showroom"
   },
   {
-    id: 'gal-11',
-    title: 'Apparel Factory Fleet Deployment (40+ Machines)',
-    category: 'projects',
-    imageUrl: 'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1200&q=85',
-    description: 'Turnkey installation of energy-efficient direct-drive sewing workstations for a major garment export enterprise.',
-    badge: 'Client Project'
+    "id": "gal-bt-10",
+    "title": "Automated 72-Hour Load & Burn-In Testing Facility",
+    "category": "quality",
+    "imageUrl": "/images/novel/Frame-68.png",
+    "description": "Continuous continuous-run burn-in bays testing acoustic decibels, gear mesh temperature, and stitch cadence.",
+    "badge": "Burn-In QC"
   },
   {
-    id: 'gal-12',
-    title: 'Servo Drive Assembly & Copper Winding Station',
-    category: 'assembly',
-    imageUrl: 'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=1200&q=85',
-    description: 'Pure copper armature winding and digital DSP controller programming for our 550W energy-saving servo motors.',
-    badge: 'Drive Tech'
+    "id": "gal-bt-11",
+    "title": "Warehouse & Genuine Spare Parts Logistics Hub",
+    "category": "facility",
+    "imageUrl": "/images/novel/Group-18.png",
+    "description": "Comprehensive inventory of rotary hooks, shuttle races, hardened gears, and genuine replacement components.",
+    "badge": "Logistics Hub"
   }
 ];

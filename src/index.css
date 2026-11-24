@@ -15,26 +15,26 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  /* Clean Solid White Background with Transition (Zero Gradient) */
-  background-color: #ffffff;
-  color: #09090b;
+  /* Warm Beige Base: #FEF3E2, Deep Espresso Text: #2A1A0E */
+  background-color: #FEF3E2;
+  color: #2A1A0E;
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   transition: background-color 0.4s ease, color 0.3s ease;
 }
 
-/* Editorial Serif Accent Typography - Matches Brand Purple Theme */
+/* Editorial Serif Accent Typography - Warm Terracotta (#D4621A) */
 .font-editorial {
   font-family: 'Playfair Display', Georgia, serif;
   font-style: italic;
-  color: #7e22ce;
+  color: #D4621A;
 }
 
-/* Handwritten Decorative Accent - Matches Brand Purple Theme */
+/* Handwritten Decorative Accent - Terracotta (#D4621A) */
 .font-handwritten {
   font-family: 'Caveat', cursive;
-  color: #7e22ce;
+  color: #D4621A;
 }
 
 /* Custom scrollbars */
@@ -44,117 +44,138 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f8fafc;
+  background: #FEF3E2;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #d8b4fe;
-  border-radius: 4px;
-  border: 1px solid rgba(126, 34, 206, 0.2);
+  background: #EBBF95;
+  border-radius: 9999px;
+  border: 1px solid #E8D4BE;
   transition: background 0.3s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #7e22ce;
+  background: #D4621A;
 }
 
-/* Clean White Backgrounds with Smooth Transitions */
+/* Base Surfaces & Warm Beige Transitions */
 .bg-transition-base {
-  background-color: #ffffff;
+  background-color: #FEF3E2;
   transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .bg-transition-card {
-  background-color: #ffffff;
-  border: 1px solid #e2e8f0;
-  box-shadow: 0 2px 8px -1px rgba(0, 0, 0, 0.05);
+  background-color: #FFFFFF;
+  border: 1px solid #E8D4BE;
+  border-radius: 28px;
+  box-shadow: 0 4px 20px -4px rgba(42, 26, 14, 0.05);
   transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .bg-transition-card:hover {
-  background-color: #faf5ff;
-  border-color: #7e22ce;
+  background-color: #FFFFFF;
+  border-color: #D4621A;
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px -4px rgba(126, 34, 206, 0.15);
+  box-shadow: 0 16px 36px -6px rgba(212, 98, 26, 0.15);
 }
 
 .bg-transition-header {
-  background-color: #ffffff;
-  border-bottom: 1px solid #e2e8f0;
+  background-color: #FEF3E2;
+  border-bottom: 1px solid #E8D4BE;
   transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
-/* Industrial tech layout - Zero Gradient */
-.tech-grid {
-  background-color: #ffffff;
-  transition: background-color 0.4s ease;
-}
-
-/* Typography styles */
-.text-metallic {
-  color: #09090b;
-}
-
-.text-purple-metallic {
-  color: #7e22ce;
-}
-
-/* Purple Buttons */
-.btn-metallic {
-  background-color: #7e22ce;
-  color: #ffffff;
-  box-shadow: 0 4px 14px rgba(126, 34, 206, 0.25);
-  transition: all 0.25s ease;
-}
-
-.btn-metallic:hover {
-  background-color: #6b21a8;
-  box-shadow: 0 6px 20px rgba(126, 34, 206, 0.4);
-  transform: translateY(-1px);
-}
-
-.btn-dark-metallic {
-  background-color: #f8fafc;
-  color: #0f172a;
-  border: 1px solid #cbd5e1;
-  transition: all 0.25s ease;
-}
-
-.btn-dark-metallic:hover {
-  background-color: #f1f5f9;
-  border-color: #7e22ce;
-  color: #7e22ce;
-  transform: translateY(-1px);
-}
-
-/* Machine Card Clean Structure */
+/* Bento Card System */
 .card-industrial {
-  background-color: #ffffff;
-  border: 1px solid #e2e8f0;
-  box-shadow: 0 2px 8px -1px rgba(0, 0, 0, 0.05);
+  background-color: #FFFFFF;
+  border: 1px solid #E8D4BE;
+  border-radius: 28px;
+  box-shadow: 0 4px 20px -4px rgba(42, 26, 14, 0.05);
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .card-industrial:hover {
-  background-color: #ffffff;
-  border-color: #7e22ce;
-  box-shadow: 0 12px 28px -6px rgba(126, 34, 206, 0.18);
+  background-color: #FFFFFF;
+  border-color: #D4621A;
+  box-shadow: 0 16px 36px -6px rgba(212, 98, 26, 0.15);
   transform: translateY(-2px);
 }
 
-/* Clean Solid Headers and Sections (Zero Gradients) */
-.header-gradient-purple {
-  background-color: #f8fafc;
-  border-bottom: 1px solid #e2e8f0;
-  transition: background-color 0.4s ease;
+/* Signature Deep Espresso Containers */
+.card-emerald,
+.card-espresso {
+  background-color: #2A1A0E;
+  color: #FFFFFF;
+  border-radius: 32px;
+  border: 1px solid rgba(244, 174, 82, 0.22);
+  box-shadow: 0 20px 45px -10px rgba(42, 26, 14, 0.35);
 }
 
-.section-gradient-purple-1 {
-  background-color: #ffffff;
-  transition: background-color 0.4s ease;
+/* Buttons */
+.btn-metallic {
+  background-color: #D4621A;
+  color: #FFFFFF;
+  border-radius: 9999px;
+  box-shadow: 0 4px 14px rgba(212, 98, 26, 0.25);
+  transition: all 0.25s ease;
 }
 
-.section-gradient-purple-2 {
-  background-color: #f8fafc;
-  transition: background-color 0.4s ease;
+.btn-metallic:hover {
+  background-color: #B84F11;
+  box-shadow: 0 8px 24px rgba(212, 98, 26, 0.38);
+  transform: translateY(-1px);
+}
+
+.btn-dark-metallic {
+  background-color: #FFFFFF;
+  color: #2A1A0E;
+  border: 1px solid #E8D4BE;
+  border-radius: 9999px;
+  transition: all 0.25s ease;
+}
+
+.btn-dark-metallic:hover {
+  background-color: #FAF0E0;
+  border-color: #D4621A;
+  color: #D4621A;
+  transform: translateY(-1px);
+}
+
+.btn-neon {
+  background-color: #F4AE52;
+  color: #2A1A0E;
+  font-weight: 700;
+  border-radius: 9999px;
+  box-shadow: 0 0 16px -2px rgba(244, 174, 82, 0.5);
+  transition: all 0.25s ease;
+}
+
+.btn-neon:hover {
+  background-color: #DE9433;
+  transform: translateY(-1px);
+  box-shadow: 0 0 24px 0 rgba(244, 174, 82, 0.7);
+}
+
+/* Warm Golden Amber Status Pulse */
+.dot-neon {
+  width: 8px;
+  height: 8px;
+  border-radius: 9999px;
+  background-color: #F4AE52;
+  box-shadow: 0 0 8px #F4AE52;
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.7;
+    transform: scale(1.15);
+  }
 }

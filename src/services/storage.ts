@@ -2,10 +2,10 @@ import { Product, QuoteRequest, ContactEnquiry, Category } from '../types';
 import { products as defaultProducts } from '../data/products';
 import { categories as defaultCategories } from '../data/categories';
 
-const PRODUCTS_KEY = 'aaditya_products_v1';
-const QUOTES_KEY = 'aaditya_quotes_v1';
-const ENQUIRIES_KEY = 'aaditya_enquiries_v1';
-const CATEGORIES_KEY = 'aaditya_categories_v1';
+const PRODUCTS_KEY = 'novel_products_v3';
+const QUOTES_KEY = 'novel_quotes_v1';
+const ENQUIRIES_KEY = 'novel_enquiries_v1';
+const CATEGORIES_KEY = 'novel_categories_v3';
 
 // Seed initial quote requests if empty
 const seedQuoteRequests: QuoteRequest[] = [
@@ -278,7 +278,7 @@ export const storage = {
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.setAttribute('href', url);
-    link.setAttribute('download', `Aaditya_Quote_Requests_${new Date().toISOString().slice(0, 10)}.csv`);
+    link.setAttribute('download', `Novel_Quote_Requests_${new Date().toISOString().slice(0, 10)}.csv`);
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -305,7 +305,7 @@ export const storage = {
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.setAttribute('href', url);
-    link.setAttribute('download', `Aaditya_Enquiries_${new Date().toISOString().slice(0, 10)}.csv`);
+    link.setAttribute('download', `Novel_Enquiries_${new Date().toISOString().slice(0, 10)}.csv`);
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

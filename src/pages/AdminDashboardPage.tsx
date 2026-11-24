@@ -131,16 +131,16 @@ export const AdminDashboardPage: React.FC = () => {
   );
 
   return (
-    <div className="bg-transparent min-h-screen text-slate-800 pb-20">
+    <div className="bg-transparent min-h-screen text-[#2A1A0E] pb-20">
       
       {/* Admin Top Navigation */}
-      <header className="bg-white border-b border-slate-200 py-4 sticky top-0 z-40 shadow-sm">
+      <header className="bg-white border-b border-[#E8D4BE] py-4 sticky top-0 z-40 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <span className="font-extrabold text-slate-900 text-lg font-display">
-              AADITYA <span className="text-brand-700">ADMIN</span> PORTAL
+            <span className="font-extrabold text-[#2A1A0E] text-lg font-display">
+              NOVEL <span className="text-[#D4621A]">ADMIN</span> PORTAL
             </span>
-            <span className="hidden sm:inline-block text-xs font-mono text-brand-700 bg-purple-50 px-2 py-0.5 rounded border border-purple-200 font-semibold">
+            <span className="hidden sm:inline-block text-xs font-mono text-[#D4621A] bg-[#FAF0E0] px-2.5 py-1 rounded-full border border-[#E8D4BE] font-semibold">
               Operations Desk
             </span>
           </div>
@@ -149,7 +149,7 @@ export const AdminDashboardPage: React.FC = () => {
             <Link
               to="/"
               target="_blank"
-              className="text-xs font-mono text-slate-600 hover:text-slate-900 flex items-center space-x-1"
+              className="text-xs font-mono text-[#5C4533] hover:text-[#2A1A0E] flex items-center space-x-1"
             >
               <span>Live Website</span>
               <ExternalLink className="w-3.5 h-3.5" />
@@ -160,7 +160,7 @@ export const AdminDashboardPage: React.FC = () => {
                 logout();
                 navigate('/admin/login');
               }}
-              className="bg-slate-100 hover:bg-rose-50 text-rose-700 border border-slate-200 text-xs px-3 py-1.5 rounded-lg flex items-center space-x-1 font-semibold transition-colors"
+              className="bg-[#FAF0E0] hover:bg-rose-50 text-rose-700 border border-[#E8D4BE] text-xs px-3 py-1.5 rounded-lg flex items-center space-x-1 font-semibold transition-colors"
             >
               <LogOut className="w-3.5 h-3.5" />
               <span>Logout</span>
@@ -173,10 +173,10 @@ export const AdminDashboardPage: React.FC = () => {
         
         {/* Overview Statistics Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 font-mono">
-          <div className="bg-white border border-slate-200 p-5 rounded-2xl space-y-1 shadow-sm">
-            <span className="text-xs text-slate-500 uppercase font-medium">Total Quote Requests (RFQ)</span>
+          <div className="bg-white border border-[#E8D4BE] p-5 rounded-2xl space-y-1 shadow-sm">
+            <span className="text-xs text-[#5C4533] uppercase font-medium">Total Quote Requests (RFQ)</span>
             <div className="flex items-center justify-between">
-              <span className="text-3xl font-black text-slate-900">{quotes.length}</span>
+              <span className="text-3xl font-black text-[#2A1A0E]">{quotes.length}</span>
               <FileText className="w-6 h-6 text-brand-700" />
             </div>
             <span className="text-[11px] text-amber-700 font-semibold block">
@@ -184,10 +184,10 @@ export const AdminDashboardPage: React.FC = () => {
             </span>
           </div>
 
-          <div className="bg-white border border-slate-200 p-5 rounded-2xl space-y-1 shadow-sm">
-            <span className="text-xs text-slate-500 uppercase font-medium">Contact Enquiries</span>
+          <div className="bg-white border border-[#E8D4BE] p-5 rounded-2xl space-y-1 shadow-sm">
+            <span className="text-xs text-[#5C4533] uppercase font-medium">Contact Enquiries</span>
             <div className="flex items-center justify-between">
-              <span className="text-3xl font-black text-slate-900">{enquiries.length}</span>
+              <span className="text-3xl font-black text-[#2A1A0E]">{enquiries.length}</span>
               <MessageSquare className="w-6 h-6 text-brand-700" />
             </div>
             <span className="text-[11px] text-emerald-700 font-semibold block">
@@ -195,35 +195,35 @@ export const AdminDashboardPage: React.FC = () => {
             </span>
           </div>
 
-          <div className="bg-white border border-slate-200 p-5 rounded-2xl space-y-1 shadow-sm">
-            <span className="text-xs text-slate-500 uppercase font-medium">Active Machinery Models</span>
+          <div className="bg-white border border-[#E8D4BE] p-5 rounded-2xl space-y-1 shadow-sm">
+            <span className="text-xs text-[#5C4533] uppercase font-medium">Active Machinery Models</span>
             <div className="flex items-center justify-between">
-              <span className="text-3xl font-black text-slate-900">{productList.length}</span>
+              <span className="text-3xl font-black text-[#2A1A0E]">{productList.length}</span>
               <Package className="w-6 h-6 text-brand-700" />
             </div>
             <span className="text-[11px] text-brand-700 font-semibold block">Across 8 Specialized Categories</span>
           </div>
 
-          <div className="bg-white border border-slate-200 p-5 rounded-2xl space-y-1 shadow-sm">
-            <span className="text-xs text-slate-500 uppercase font-medium">System Status</span>
+          <div className="bg-white border border-[#E8D4BE] p-5 rounded-2xl space-y-1 shadow-sm">
+            <span className="text-xs text-[#5C4533] uppercase font-medium">System Status</span>
             <div className="flex items-center justify-between">
               <span className="text-3xl font-black text-emerald-700">Online</span>
               <ShieldCheck className="w-6 h-6 text-emerald-700" />
             </div>
-            <span className="text-[11px] text-slate-500 block font-mono">
+            <span className="text-[11px] text-[#5C4533] block font-mono">
               Central Ledger Synchronized
             </span>
           </div>
         </div>
 
         {/* Tab Controls */}
-        <div className="flex items-center space-x-2 border-b border-slate-200 pb-4">
+        <div className="flex items-center space-x-2 border-b border-[#E8D4BE] pb-4">
           <button
             onClick={() => setActiveTab('quotes')}
             className={`px-5 py-2.5 rounded-xl font-mono text-xs font-bold transition-all flex items-center space-x-2 ${
               activeTab === 'quotes'
                 ? 'bg-brand-600 text-white shadow-md'
-                : 'bg-white text-slate-700 hover:text-slate-900 border border-slate-200 shadow-sm'
+                : 'bg-white text-[#5C4533] hover:text-[#2A1A0E] border border-[#E8D4BE] shadow-sm'
             }`}
           >
             <FileText className="w-4 h-4" />
@@ -235,7 +235,7 @@ export const AdminDashboardPage: React.FC = () => {
             className={`px-5 py-2.5 rounded-xl font-mono text-xs font-bold transition-all flex items-center space-x-2 ${
               activeTab === 'enquiries'
                 ? 'bg-brand-600 text-white shadow-md'
-                : 'bg-white text-slate-700 hover:text-slate-900 border border-slate-200 shadow-sm'
+                : 'bg-white text-[#5C4533] hover:text-[#2A1A0E] border border-[#E8D4BE] shadow-sm'
             }`}
           >
             <MessageSquare className="w-4 h-4" />
@@ -247,7 +247,7 @@ export const AdminDashboardPage: React.FC = () => {
             className={`px-5 py-2.5 rounded-xl font-mono text-xs font-bold transition-all flex items-center space-x-2 ${
               activeTab === 'products'
                 ? 'bg-brand-600 text-white shadow-md'
-                : 'bg-white text-slate-700 hover:text-slate-900 border border-slate-200 shadow-sm'
+                : 'bg-white text-[#5C4533] hover:text-[#2A1A0E] border border-[#E8D4BE] shadow-sm'
             }`}
           >
             <Package className="w-4 h-4" />
@@ -258,9 +258,9 @@ export const AdminDashboardPage: React.FC = () => {
         {/* TAB 1: QUOTE REQUESTS */}
         {activeTab === 'quotes' && (
           <div className="space-y-4">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white p-4 rounded-xl border border-[#E8D4BE] shadow-sm">
               <div className="flex items-center space-x-2 font-mono text-xs">
-                <span className="text-slate-500">Filter Status:</span>
+                <span className="text-[#5C4533]">Filter Status:</span>
                 {['all', 'pending', 'in_review', 'quoted', 'closed'].map((st) => (
                   <button
                     key={st}
@@ -268,7 +268,7 @@ export const AdminDashboardPage: React.FC = () => {
                     className={`px-2.5 py-1 rounded capitalize ${
                       quoteFilter === st
                         ? 'bg-brand-600 text-white font-bold'
-                        : 'bg-slate-100 text-slate-700 hover:text-slate-900 border border-slate-200'
+                        : 'bg-[#FAF0E0] text-[#5C4533] hover:text-[#2A1A0E] border border-[#E8D4BE]'
                     }`}
                   >
                     {st.replace('_', ' ')}
@@ -278,17 +278,17 @@ export const AdminDashboardPage: React.FC = () => {
 
               <button
                 onClick={() => storage.exportQuotesCSV()}
-                className="bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-200 text-xs font-semibold px-4 py-2 rounded-lg flex items-center space-x-1.5 shrink-0 transition-colors"
+                className="bg-[#FAF0E0] hover:bg-[#E8D4BE] text-[#2A1A0E] border border-[#E8D4BE] text-xs font-semibold px-4 py-2 rounded-lg flex items-center space-x-1.5 shrink-0 transition-colors"
               >
                 <Download className="w-3.5 h-3.5 text-brand-700" />
                 <span>Export RFQs to CSV</span>
               </button>
             </div>
 
-            <div className="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+            <div className="bg-white border border-[#E8D4BE] rounded-2xl overflow-hidden shadow-sm">
               <div className="overflow-x-auto">
                 <table className="w-full text-xs text-left">
-                  <thead className="bg-slate-100 border-b border-slate-200 font-mono text-brand-700 uppercase">
+                  <thead className="bg-[#FAF0E0] border-b border-[#E8D4BE] font-mono text-brand-700 uppercase">
                     <tr>
                       <th className="py-3 px-4">Ref Code</th>
                       <th className="py-3 px-4">Client / Company</th>
@@ -301,18 +301,18 @@ export const AdminDashboardPage: React.FC = () => {
                   </thead>
                   <tbody className="divide-y divide-slate-200 font-mono">
                     {filteredQuotes.map((q) => (
-                      <tr key={q.id} className="hover:bg-slate-50 transition-colors">
-                        <td className="py-3 px-4 font-bold text-slate-900">{q.referenceNumber}</td>
+                      <tr key={q.id} className="hover:bg-[#FAF0E0] transition-colors">
+                        <td className="py-3 px-4 font-bold text-[#2A1A0E]">{q.referenceNumber}</td>
                         <td className="py-3 px-4">
-                          <span className="font-bold text-slate-900 block">{q.fullName}</span>
-                          <span className="text-slate-500 block text-[11px]">{q.companyName} &bull; {q.phone}</span>
+                          <span className="font-bold text-[#2A1A0E] block">{q.fullName}</span>
+                          <span className="text-[#5C4533] block text-[11px]">{q.companyName} &bull; {q.phone}</span>
                         </td>
                         <td className="py-3 px-4">
                           <span className="text-brand-700 font-bold block">{q.productModel}</span>
-                          <span className="text-slate-500 text-[11px]">Qty: {q.requiredQuantity} Units</span>
+                          <span className="text-[#5C4533] text-[11px]">Qty: {q.requiredQuantity} Units</span>
                         </td>
-                        <td className="py-3 px-4 text-slate-700 truncate max-w-[180px]">{q.application}</td>
-                        <td className="py-3 px-4 text-slate-500">{new Date(q.createdAt).toLocaleDateString()}</td>
+                        <td className="py-3 px-4 text-[#5C4533] truncate max-w-[180px]">{q.application}</td>
+                        <td className="py-3 px-4 text-[#5C4533]">{new Date(q.createdAt).toLocaleDateString()}</td>
                         <td className="py-3 px-4">
                           <select
                             value={q.status}
@@ -325,7 +325,7 @@ export const AdminDashboardPage: React.FC = () => {
                                 ? 'bg-blue-50 text-blue-800 border-blue-300'
                                 : q.status === 'quoted'
                                 ? 'bg-emerald-50 text-emerald-800 border-emerald-300'
-                                : 'bg-slate-100 text-slate-600 border-slate-300'
+                                : 'bg-[#FAF0E0] text-[#5C4533] border-[#E8D4BE]'
                             }`}
                           >
                             <option value="pending">Pending</option>
@@ -337,14 +337,14 @@ export const AdminDashboardPage: React.FC = () => {
                         <td className="py-3 px-4 text-right space-x-2">
                           <button
                             onClick={() => setSelectedQuote(q)}
-                            className="p-1.5 text-slate-600 hover:text-slate-900 rounded hover:bg-slate-100 transition-colors"
+                            className="p-1.5 text-[#5C4533] hover:text-[#2A1A0E] rounded hover:bg-[#FAF0E0] transition-colors"
                             title="Inspect Details"
                           >
                             <Eye className="w-4 h-4 text-brand-700" />
                           </button>
                           <button
                             onClick={() => handleDeleteQuote(q.id)}
-                            className="p-1.5 text-slate-600 hover:text-rose-600 rounded hover:bg-slate-100 transition-colors"
+                            className="p-1.5 text-[#5C4533] hover:text-rose-600 rounded hover:bg-[#FAF0E0] transition-colors"
                             title="Delete Quote"
                           >
                             <Trash2 className="w-4 h-4" />
@@ -357,7 +357,7 @@ export const AdminDashboardPage: React.FC = () => {
               </div>
 
               {filteredQuotes.length === 0 && (
-                <div className="text-center py-10 text-xs text-slate-500">
+                <div className="text-center py-10 text-xs text-[#5C4533]">
                   No quote requests found matching this filter.
                 </div>
               )}
@@ -368,9 +368,9 @@ export const AdminDashboardPage: React.FC = () => {
         {/* TAB 2: CONTACT ENQUIRIES */}
         {activeTab === 'enquiries' && (
           <div className="space-y-4">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white p-4 rounded-xl border border-[#E8D4BE] shadow-sm">
               <div className="flex items-center space-x-2 font-mono text-xs">
-                <span className="text-slate-500">Filter Status:</span>
+                <span className="text-[#5C4533]">Filter Status:</span>
                 {['all', 'new', 'in_progress', 'resolved'].map((st) => (
                   <button
                     key={st}
@@ -378,7 +378,7 @@ export const AdminDashboardPage: React.FC = () => {
                     className={`px-2.5 py-1 rounded capitalize ${
                       enquiryFilter === st
                         ? 'bg-brand-600 text-white font-bold'
-                        : 'bg-slate-100 text-slate-700 hover:text-slate-900 border border-slate-200'
+                        : 'bg-[#FAF0E0] text-[#5C4533] hover:text-[#2A1A0E] border border-[#E8D4BE]'
                     }`}
                   >
                     {st.replace('_', ' ')}
@@ -388,7 +388,7 @@ export const AdminDashboardPage: React.FC = () => {
 
               <button
                 onClick={() => storage.exportEnquiriesCSV()}
-                className="bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-200 text-xs font-semibold px-4 py-2 rounded-lg flex items-center space-x-1.5 shrink-0 transition-colors"
+                className="bg-[#FAF0E0] hover:bg-[#E8D4BE] text-[#2A1A0E] border border-[#E8D4BE] text-xs font-semibold px-4 py-2 rounded-lg flex items-center space-x-1.5 shrink-0 transition-colors"
               >
                 <Download className="w-3.5 h-3.5 text-brand-700" />
                 <span>Export Enquiries to CSV</span>
@@ -399,23 +399,23 @@ export const AdminDashboardPage: React.FC = () => {
               {filteredEnquiries.map((enq) => (
                 <div
                   key={enq.id}
-                  className="bg-white border border-slate-200 rounded-xl p-5 space-y-3 hover:border-brand-500 transition-colors shadow-sm"
+                  className="bg-white border border-[#E8D4BE] rounded-xl p-5 space-y-3 hover:border-brand-500 transition-colors shadow-sm"
                 >
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
                     <div className="flex items-center space-x-3">
-                      <span className="font-mono text-xs font-bold text-slate-900">{enq.fullName}</span>
-                      <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-purple-50 text-brand-700 border border-purple-200 font-semibold">
+                      <span className="font-mono text-xs font-bold text-[#2A1A0E]">{enq.fullName}</span>
+                      <span className="text-[10px] font-mono px-2.5 py-0.5 rounded-full bg-[#FAF0E0] text-[#D4621A] border border-[#E8D4BE] font-semibold">
                         {enq.category}
                       </span>
                     </div>
 
                     <div className="flex items-center space-x-3 text-xs font-mono">
-                      <span className="text-slate-500">{new Date(enq.createdAt).toLocaleString()}</span>
+                      <span className="text-[#5C4533]">{new Date(enq.createdAt).toLocaleString()}</span>
                       <select
                         value={enq.status}
                         onChange={(e) => handleUpdateEnquiryStatus(enq.id, e.target.value as any)}
                         aria-label={`Update status for enquiry from ${enq.fullName}`}
-                        className="bg-white border border-slate-300 rounded px-2 py-1 text-[11px] text-slate-900"
+                        className="bg-white border border-[#E8D4BE] rounded px-2 py-1 text-[11px] text-[#2A1A0E]"
                       >
                         <option value="new">New</option>
                         <option value="in_progress">In Progress</option>
@@ -423,7 +423,7 @@ export const AdminDashboardPage: React.FC = () => {
                       </select>
                       <button
                         onClick={() => handleDeleteEnquiry(enq.id)}
-                        className="text-slate-400 hover:text-rose-600 p-1 transition-colors"
+                        className="text-[#8C7565] hover:text-rose-600 p-1 transition-colors"
                         title="Delete Enquiry"
                       >
                         <Trash2 className="w-4 h-4" />
@@ -432,9 +432,9 @@ export const AdminDashboardPage: React.FC = () => {
                   </div>
 
                   <div className="space-y-1 text-xs">
-                    <div className="font-bold text-slate-900 font-display">{enq.subject}</div>
-                    <p className="text-slate-700 leading-relaxed font-sans">{enq.message}</p>
-                    <div className="text-[11px] font-mono text-slate-500 pt-1">
+                    <div className="font-bold text-[#2A1A0E] font-display">{enq.subject}</div>
+                    <p className="text-[#5C4533] leading-relaxed font-sans">{enq.message}</p>
+                    <div className="text-[11px] font-mono text-[#5C4533] pt-1">
                       Phone: <a href={`tel:${enq.phone}`} className="text-brand-700 font-semibold hover:underline">{enq.phone}</a> &bull; Email: {enq.email}
                     </div>
                   </div>
@@ -442,7 +442,7 @@ export const AdminDashboardPage: React.FC = () => {
               ))}
 
               {filteredEnquiries.length === 0 && (
-                <div className="text-center py-10 bg-white rounded-xl text-xs text-slate-500 border border-slate-200">
+                <div className="text-center py-10 bg-white rounded-xl text-xs text-[#5C4533] border border-[#E8D4BE]">
                   No contact enquiries found matching this filter.
                 </div>
               )}
@@ -453,22 +453,22 @@ export const AdminDashboardPage: React.FC = () => {
         {/* TAB 3: MACHINERY CATALOGUE CRUD */}
         {activeTab === 'products' && (
           <div className="space-y-4">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white p-4 rounded-xl border border-[#E8D4BE] shadow-sm">
               <div className="relative w-full sm:w-72">
-                <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+                <Search className="w-4 h-4 text-[#8C7565] absolute left-3 top-1/2 -translate-y-1/2" />
                 <input
                   type="text"
                   placeholder="Filter machinery by name or model..."
                   value={productSearch}
                   onChange={(e) => setProductSearch(e.target.value)}
-                  className="w-full bg-white border border-slate-300 rounded-xl pl-9 pr-3 py-2 text-xs text-slate-900 placeholder-slate-400 focus:outline-none focus:border-brand-600 font-mono"
+                  className="w-full bg-white border border-[#E8D4BE] rounded-xl pl-9 pr-3 py-2 text-xs text-[#2A1A0E] placeholder-slate-400 focus:outline-none focus:border-brand-600 font-mono"
                 />
               </div>
 
               <div className="flex items-center space-x-2">
                 <button
                   onClick={handleResetCatalogue}
-                  className="bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-200 text-xs font-semibold px-3 py-2 rounded-lg flex items-center space-x-1 transition-colors"
+                  className="bg-[#FAF0E0] hover:bg-[#E8D4BE] text-[#2A1A0E] border border-[#E8D4BE] text-xs font-semibold px-3 py-2 rounded-lg flex items-center space-x-1 transition-colors"
                   title="Reset to Factory Catalogue"
                 >
                   <RotateCcw className="w-3.5 h-3.5" />
@@ -477,7 +477,7 @@ export const AdminDashboardPage: React.FC = () => {
 
                 <button
                   onClick={() => setIsNewProductModalOpen(true)}
-                  className="btn-metallic text-xs font-bold text-white px-4 py-2 rounded-lg flex items-center space-x-1.5 shadow-purple-glow"
+                  className="btn-metallic text-xs font-bold text-white px-4 py-2 rounded-full flex items-center space-x-1.5 shadow-sm"
                 >
                   <Plus className="w-4 h-4" />
                   <span>Add New Product</span>
@@ -485,10 +485,10 @@ export const AdminDashboardPage: React.FC = () => {
               </div>
             </div>
 
-            <div className="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+            <div className="bg-white border border-[#E8D4BE] rounded-2xl overflow-hidden shadow-sm">
               <div className="overflow-x-auto">
                 <table className="w-full text-xs text-left">
-                  <thead className="bg-slate-100 border-b border-slate-200 font-mono text-brand-700 uppercase">
+                  <thead className="bg-[#FAF0E0] border-b border-[#E8D4BE] font-mono text-brand-700 uppercase">
                     <tr>
                       <th className="py-3 px-4">Photo</th>
                       <th className="py-3 px-4">Model & Name</th>
@@ -501,41 +501,41 @@ export const AdminDashboardPage: React.FC = () => {
                   </thead>
                   <tbody className="divide-y divide-slate-200 font-mono">
                     {filteredProducts.map((p) => (
-                      <tr key={p.id} className="hover:bg-slate-50 transition-colors">
+                      <tr key={p.id} className="hover:bg-[#FAF0E0] transition-colors">
                         <td className="py-3 px-4">
                           <img
                             src={p.images[0]}
                             alt={p.name}
-                            className="w-12 h-12 object-cover rounded-lg bg-slate-100 border border-slate-200"
+                            className="w-12 h-12 object-cover rounded-lg bg-[#FAF0E0] border border-[#E8D4BE]"
                           />
                         </td>
                         <td className="py-3 px-4">
-                          <span className="font-bold text-slate-900 block">{p.modelNumber}</span>
-                          <span className="text-slate-500 block text-[11px] truncate max-w-xs">{p.name}</span>
+                          <span className="font-bold text-[#2A1A0E] block">{p.modelNumber}</span>
+                          <span className="text-[#5C4533] block text-[11px] truncate max-w-xs">{p.name}</span>
                         </td>
                         <td className="py-3 px-4 text-brand-700 font-semibold">{p.categoryName}</td>
-                        <td className="py-3 px-4 text-slate-900 font-bold">{p.operatingCapabilities.maxSpeed}</td>
-                        <td className="py-3 px-4 text-slate-700">{p.operatingCapabilities.motorPower}</td>
-                        <td className="py-3 px-4 text-slate-500">{p.warrantyYears} Years</td>
+                        <td className="py-3 px-4 text-[#2A1A0E] font-bold">{p.operatingCapabilities.maxSpeed}</td>
+                        <td className="py-3 px-4 text-[#5C4533]">{p.operatingCapabilities.motorPower}</td>
+                        <td className="py-3 px-4 text-[#5C4533]">{p.warrantyYears} Years</td>
                         <td className="py-3 px-4 text-right space-x-2">
                           <Link
                             to={`/products/${p.slug}`}
                             target="_blank"
-                            className="p-1.5 text-slate-600 hover:text-slate-900 inline-block transition-colors"
+                            className="p-1.5 text-[#5C4533] hover:text-[#2A1A0E] inline-block transition-colors"
                             title="View Public Page"
                           >
                             <ExternalLink className="w-4 h-4" />
                           </Link>
                           <button
                             onClick={() => setEditingProduct(p)}
-                            className="p-1.5 text-slate-600 hover:text-brand-700 inline-block transition-colors"
+                            className="p-1.5 text-[#5C4533] hover:text-brand-700 inline-block transition-colors"
                             title="Edit Product"
                           >
                             <Edit3 className="w-4 h-4" />
                           </button>
                           <button
                             onClick={() => handleDeleteProduct(p.id)}
-                            className="p-1.5 text-slate-600 hover:text-rose-600 inline-block transition-colors"
+                            className="p-1.5 text-[#5C4533] hover:text-rose-600 inline-block transition-colors"
                             title="Delete Product"
                           >
                             <Trash2 className="w-4 h-4" />
@@ -555,58 +555,58 @@ export const AdminDashboardPage: React.FC = () => {
       {/* MODAL: Quote Details View */}
       {selectedQuote && (
         <div className="fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-sm flex items-center justify-center p-4">
-          <div className="bg-white border border-slate-200 rounded-2xl max-w-2xl w-full p-6 space-y-5 shadow-2xl animate-in zoom-in-95 duration-200">
-            <div className="flex items-center justify-between pb-3 border-b border-slate-200">
+          <div className="bg-white border border-[#E8D4BE] rounded-2xl max-w-2xl w-full p-6 space-y-5 shadow-2xl animate-in zoom-in-95 duration-200">
+            <div className="flex items-center justify-between pb-3 border-b border-[#E8D4BE]">
               <div>
                 <span className="text-[10px] font-mono uppercase text-brand-700 block font-bold">RFQ Inspection</span>
-                <h3 className="text-lg font-bold text-slate-900 font-display">{selectedQuote.referenceNumber}</h3>
+                <h3 className="text-lg font-bold text-[#2A1A0E] font-display">{selectedQuote.referenceNumber}</h3>
               </div>
-              <button onClick={() => setSelectedQuote(null)} className="p-1.5 text-slate-400 hover:text-slate-800">
+              <button onClick={() => setSelectedQuote(null)} className="p-1.5 text-[#8C7565] hover:text-[#2A1A0E]">
                 <X className="w-5 h-5" />
               </button>
             </div>
 
             <div className="grid grid-cols-2 gap-4 text-xs font-mono">
-              <div className="bg-slate-50 p-3 rounded-lg border border-slate-200">
-                <span className="text-slate-500 block text-[10px]">CLIENT NAME</span>
-                <span className="text-slate-900 font-bold">{selectedQuote.fullName}</span>
+              <div className="bg-[#FAF0E0] p-3 rounded-lg border border-[#E8D4BE]">
+                <span className="text-[#5C4533] block text-[10px]">CLIENT NAME</span>
+                <span className="text-[#2A1A0E] font-bold">{selectedQuote.fullName}</span>
               </div>
-              <div className="bg-slate-50 p-3 rounded-lg border border-slate-200">
-                <span className="text-slate-500 block text-[10px]">COMPANY</span>
-                <span className="text-slate-900 font-bold">{selectedQuote.companyName}</span>
+              <div className="bg-[#FAF0E0] p-3 rounded-lg border border-[#E8D4BE]">
+                <span className="text-[#5C4533] block text-[10px]">COMPANY</span>
+                <span className="text-[#2A1A0E] font-bold">{selectedQuote.companyName}</span>
               </div>
-              <div className="bg-slate-50 p-3 rounded-lg border border-slate-200">
-                <span className="text-slate-500 block text-[10px]">PHONE</span>
+              <div className="bg-[#FAF0E0] p-3 rounded-lg border border-[#E8D4BE]">
+                <span className="text-[#5C4533] block text-[10px]">PHONE</span>
                 <a href={`tel:${selectedQuote.phone}`} className="text-brand-700 font-bold hover:underline">{selectedQuote.phone}</a>
               </div>
-              <div className="bg-slate-50 p-3 rounded-lg border border-slate-200">
-                <span className="text-slate-500 block text-[10px]">EMAIL</span>
-                <span className="text-slate-900">{selectedQuote.email}</span>
+              <div className="bg-[#FAF0E0] p-3 rounded-lg border border-[#E8D4BE]">
+                <span className="text-[#5C4533] block text-[10px]">EMAIL</span>
+                <span className="text-[#2A1A0E]">{selectedQuote.email}</span>
               </div>
-              <div className="bg-slate-50 p-3 rounded-lg border border-slate-200">
-                <span className="text-slate-500 block text-[10px]">MODEL REQUESTED</span>
+              <div className="bg-[#FAF0E0] p-3 rounded-lg border border-[#E8D4BE]">
+                <span className="text-[#5C4533] block text-[10px]">MODEL REQUESTED</span>
                 <span className="text-brand-700 font-bold">{selectedQuote.productModel}</span>
               </div>
-              <div className="bg-slate-50 p-3 rounded-lg border border-slate-200">
-                <span className="text-slate-500 block text-[10px]">QUANTITY</span>
-                <span className="text-slate-900 font-bold">{selectedQuote.requiredQuantity} Units</span>
+              <div className="bg-[#FAF0E0] p-3 rounded-lg border border-[#E8D4BE]">
+                <span className="text-[#5C4533] block text-[10px]">QUANTITY</span>
+                <span className="text-[#2A1A0E] font-bold">{selectedQuote.requiredQuantity} Units</span>
               </div>
             </div>
 
-            <div className="bg-slate-50 p-3 rounded-lg border border-slate-200 space-y-1 text-xs">
+            <div className="bg-[#FAF0E0] p-3 rounded-lg border border-[#E8D4BE] space-y-1 text-xs">
               <span className="text-[10px] font-mono text-brand-700 block font-bold">APPLICATION & POWER</span>
-              <div className="text-slate-900 font-medium">{selectedQuote.application} &bull; {selectedQuote.powerOption}</div>
-              <p className="text-slate-600 pt-1 font-mono text-[11px]">{selectedQuote.technicalRequirements}</p>
+              <div className="text-[#2A1A0E] font-medium">{selectedQuote.application} &bull; {selectedQuote.powerOption}</div>
+              <p className="text-[#5C4533] pt-1 font-mono text-[11px]">{selectedQuote.technicalRequirements}</p>
             </div>
 
-            <div className="flex items-center justify-between pt-3 border-t border-slate-200">
+            <div className="flex items-center justify-between pt-3 border-t border-[#E8D4BE]">
               <div className="flex items-center space-x-2">
-                <span className="text-xs font-mono text-slate-500">Update Status:</span>
+                <span className="text-xs font-mono text-[#5C4533]">Update Status:</span>
                 <select
                   value={selectedQuote.status}
                   onChange={(e) => handleUpdateQuoteStatus(selectedQuote.id, e.target.value as any)}
                   aria-label="Update quote status in details view"
-                  className="bg-white border border-slate-300 rounded px-2 py-1 text-xs font-mono text-slate-900"
+                  className="bg-white border border-[#E8D4BE] rounded px-2 py-1 text-xs font-mono text-[#2A1A0E]"
                 >
                   <option value="pending">Pending</option>
                   <option value="in_review">In Review</option>
@@ -661,7 +661,7 @@ const ProductFormModal: React.FC<{
       categoryName: categories[0].name,
       shortDescription: '',
       fullDescription: '',
-      images: ['https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=1200&q=85'],
+      images: ['/images/novel/Frame-35.png'],
       specifications: {
         'Model Number': 'ASM-',
         'Max Speed': '3,000 SPM',
@@ -714,13 +714,13 @@ const ProductFormModal: React.FC<{
 
   return (
     <div className="fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-sm flex items-center justify-center p-3 sm:p-6 overflow-y-auto">
-      <div className="bg-white border border-slate-200 rounded-2xl max-w-3xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden animate-in zoom-in-95 duration-200">
+      <div className="bg-white border border-[#E8D4BE] rounded-2xl max-w-3xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden animate-in zoom-in-95 duration-200">
         
-        <div className="p-4 bg-slate-50 border-b border-slate-200 flex items-center justify-between">
-          <h3 className="font-bold text-slate-900 text-sm font-display">
+        <div className="p-4 bg-[#FAF0E0] border-b border-[#E8D4BE] flex items-center justify-between">
+          <h3 className="font-bold text-[#2A1A0E] text-sm font-display">
             {product ? `Edit Product: ${product.modelNumber}` : 'Add New Machinery Model'}
           </h3>
-          <button onClick={onClose} className="p-1 text-slate-400 hover:text-slate-800">
+          <button onClick={onClose} className="p-1 text-[#8C7565] hover:text-[#2A1A0E]">
             <X className="w-5 h-5" />
           </button>
         </div>
@@ -728,22 +728,22 @@ const ProductFormModal: React.FC<{
         <form onSubmit={handleSubmit} className="p-6 overflow-y-auto space-y-4 text-xs font-mono">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="space-y-1">
-              <label className="text-slate-700 font-medium block">Model Number *</label>
+              <label className="text-[#5C4533] font-medium block">Model Number *</label>
               <input
                 type="text"
                 required
                 value={formData.modelNumber}
                 onChange={(e) => setFormData({ ...formData, modelNumber: e.target.value })}
-                className="w-full bg-white border border-slate-300 rounded-xl px-3 py-2 text-slate-900 focus:outline-none focus:border-brand-600"
+                className="w-full bg-white border border-[#E8D4BE] rounded-xl px-3 py-2 text-[#2A1A0E] focus:outline-none focus:border-brand-600"
               />
             </div>
 
             <div className="space-y-1">
-              <label className="text-slate-700 font-medium block">Category *</label>
+              <label className="text-[#5C4533] font-medium block">Category *</label>
               <select
                 value={formData.categoryId}
                 onChange={(e) => setFormData({ ...formData, categoryId: e.target.value })}
-                className="w-full bg-white border border-slate-300 rounded-xl px-3 py-2 text-slate-900 focus:outline-none focus:border-brand-600"
+                className="w-full bg-white border border-[#E8D4BE] rounded-xl px-3 py-2 text-[#2A1A0E] focus:outline-none focus:border-brand-600"
               >
                 {categories.map((c) => (
                   <option key={c.id} value={c.id}>{c.name}</option>
@@ -753,41 +753,41 @@ const ProductFormModal: React.FC<{
           </div>
 
           <div className="space-y-1">
-            <label className="text-slate-700 font-medium block">Product Name *</label>
+            <label className="text-[#5C4533] font-medium block">Product Name *</label>
             <input
               type="text"
               required
               value={formData.name}
               onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-              className="w-full bg-white border border-slate-300 rounded-xl px-3 py-2 text-slate-900 focus:outline-none focus:border-brand-600"
+              className="w-full bg-white border border-[#E8D4BE] rounded-xl px-3 py-2 text-[#2A1A0E] focus:outline-none focus:border-brand-600"
             />
           </div>
 
           <div className="space-y-1">
-            <label className="text-slate-700 font-medium block">Image URL *</label>
+            <label className="text-[#5C4533] font-medium block">Image URL *</label>
             <input
               type="url"
               required
               value={formData.images?.[0] || ''}
               onChange={(e) => setFormData({ ...formData, images: [e.target.value] })}
-              className="w-full bg-white border border-slate-300 rounded-xl px-3 py-2 text-slate-900 focus:outline-none focus:border-brand-600"
+              className="w-full bg-white border border-[#E8D4BE] rounded-xl px-3 py-2 text-[#2A1A0E] focus:outline-none focus:border-brand-600"
             />
           </div>
 
           <div className="space-y-1">
-            <label className="text-slate-700 font-medium block">Short Description *</label>
+            <label className="text-[#5C4533] font-medium block">Short Description *</label>
             <textarea
               rows={2}
               required
               value={formData.shortDescription}
               onChange={(e) => setFormData({ ...formData, shortDescription: e.target.value })}
-              className="w-full bg-white border border-slate-300 rounded-xl px-3 py-2 text-slate-900 font-sans text-xs focus:outline-none focus:border-brand-600"
+              className="w-full bg-white border border-[#E8D4BE] rounded-xl px-3 py-2 text-[#2A1A0E] font-sans text-xs focus:outline-none focus:border-brand-600"
             ></textarea>
           </div>
 
           <div className="grid grid-cols-3 gap-3">
             <div className="space-y-1">
-              <label className="text-slate-700 font-medium block">Max Speed (SPM)</label>
+              <label className="text-[#5C4533] font-medium block">Max Speed (SPM)</label>
               <input
                 type="text"
                 value={formData.operatingCapabilities?.maxSpeed}
@@ -795,12 +795,12 @@ const ProductFormModal: React.FC<{
                   ...formData,
                   operatingCapabilities: { ...formData.operatingCapabilities!, maxSpeed: e.target.value }
                 })}
-                className="w-full bg-white border border-slate-300 rounded-xl px-3 py-2 text-slate-900 focus:outline-none focus:border-brand-600"
+                className="w-full bg-white border border-[#E8D4BE] rounded-xl px-3 py-2 text-[#2A1A0E] focus:outline-none focus:border-brand-600"
               />
             </div>
 
             <div className="space-y-1">
-              <label className="text-slate-700 font-medium block">Motor Power</label>
+              <label className="text-[#5C4533] font-medium block">Motor Power</label>
               <input
                 type="text"
                 value={formData.operatingCapabilities?.motorPower}
@@ -808,48 +808,48 @@ const ProductFormModal: React.FC<{
                   ...formData,
                   operatingCapabilities: { ...formData.operatingCapabilities!, motorPower: e.target.value }
                 })}
-                className="w-full bg-white border border-slate-300 rounded-xl px-3 py-2 text-slate-900 focus:outline-none focus:border-brand-600"
+                className="w-full bg-white border border-[#E8D4BE] rounded-xl px-3 py-2 text-[#2A1A0E] focus:outline-none focus:border-brand-600"
               />
             </div>
 
             <div className="space-y-1">
-              <label className="text-slate-700 font-medium block">Warranty (Years)</label>
+              <label className="text-[#5C4533] font-medium block">Warranty (Years)</label>
               <input
                 type="number"
                 value={formData.warrantyYears}
                 onChange={(e) => setFormData({ ...formData, warrantyYears: parseInt(e.target.value) || 1 })}
-                className="w-full bg-white border border-slate-300 rounded-xl px-3 py-2 text-slate-900 focus:outline-none focus:border-brand-600"
+                className="w-full bg-white border border-[#E8D4BE] rounded-xl px-3 py-2 text-[#2A1A0E] focus:outline-none focus:border-brand-600"
               />
             </div>
           </div>
 
           <div className="flex items-center space-x-6 pt-2">
-            <label className="flex items-center space-x-2 text-slate-800 cursor-pointer">
+            <label className="flex items-center space-x-2 text-[#2A1A0E] cursor-pointer">
               <input
                 type="checkbox"
                 checked={formData.featured}
                 onChange={(e) => setFormData({ ...formData, featured: e.target.checked })}
-                className="rounded border-slate-300 text-brand-600 focus:ring-0"
+                className="rounded border-[#E8D4BE] text-brand-600 focus:ring-0"
               />
               <span>Featured on Homepage</span>
             </label>
 
-            <label className="flex items-center space-x-2 text-slate-800 cursor-pointer">
+            <label className="flex items-center space-x-2 text-[#2A1A0E] cursor-pointer">
               <input
                 type="checkbox"
                 checked={formData.isDemoConfig}
                 onChange={(e) => setFormData({ ...formData, isDemoConfig: e.target.checked })}
-                className="rounded border-slate-300 text-brand-600 focus:ring-0"
+                className="rounded border-[#E8D4BE] text-brand-600 focus:ring-0"
               />
               <span>Mark as Custom Config Demo</span>
             </label>
           </div>
 
-          <div className="pt-4 border-t border-slate-200 flex justify-end space-x-3">
+          <div className="pt-4 border-t border-[#E8D4BE] flex justify-end space-x-3">
             <button
               type="button"
               onClick={onClose}
-              className="bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-200 text-xs font-semibold px-4 py-2 rounded-xl transition-colors"
+              className="bg-[#FAF0E0] hover:bg-[#E8D4BE] text-[#2A1A0E] border border-[#E8D4BE] text-xs font-semibold px-4 py-2 rounded-xl transition-colors"
             >
               Cancel
             </button>

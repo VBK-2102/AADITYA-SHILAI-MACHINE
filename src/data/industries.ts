@@ -2,6 +2,26 @@ import { IndustryItem } from '../types';
 
 export const industries: IndustryItem[] = [
   {
+    id: 'boutique-tailoring',
+    slug: 'boutique-tailoring',
+    title: 'Fashion Boutiques & Bespoke Master Tailors',
+    iconName: 'Scissors',
+    description: 'Precision artisan lockstitch units, silent direct-drive machines, saree pico/fall specialists, and designer embroidery systems configured for custom boutiques and master tailoring salons.',
+    keyRequirements: [
+      'Whisper-quiet direct-drive servo operation for peaceful boutique salon environments',
+      'Zero oil staining on sensitive bridal lehengas, pure silk, and organza',
+      'Micro-pitch feed control to prevent puckering on fine chiffon and georgette',
+      'Versatile attachments for saree pico, fall, dori cording, and buttonholes'
+    ],
+    recommendedMachines: ['ASM-DLX-200', 'ASM-BT-202', 'ASM-PICO-108', 'ASM-EMB-800'],
+    caseStudy: {
+      clientType: 'Premier Bridal Fashion Boutique & Tailoring Studio (Kolhapur)',
+      solution: 'Equipped workshop with ASM-DLX-200 Treadle Stand units, ASM-BT-202 Silent Direct-Drive machines, and ASM-PICO-108 Saree Pico units.',
+      result: 'Accelerated blouse and designer gown delivery turnaround by 40% with showroom-grade stitch perfection.'
+    },
+    imageUrl: '/images/novel/Frame-35.png'
+  },
+  {
     id: 'garment-apparel',
     slug: 'garment-apparel',
     title: 'Garments & Apparel Manufacturing',
@@ -19,7 +39,7 @@ export const industries: IndustryItem[] = [
       solution: 'Deployed 45 units of ASM-DD-9000 Direct-Drive Computerized Lockstitch units.',
       result: 'Reduced power consumption by 68% and boosted daily operator seam output by 28%.'
     },
-    imageUrl: 'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1000&q=80'
+    imageUrl: '/images/novel/Frame-67-1.png'
   },
   {
     id: 'heavy-canvas-tarpaulins',
@@ -39,7 +59,7 @@ export const industries: IndustryItem[] = [
       solution: 'Equipped production lines with ASM-UMB-950 Heavy Umbrella series.',
       result: 'Eliminated needle deflection breakage and maintained zero seam leakage in high-stress outdoor tests.'
     },
-    imageUrl: 'https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=1000&q=80'
+    imageUrl: '/images/novel/95-T-10-INDUSTRIAL-1.png'
   },
   {
     id: 'leather-footwear',
@@ -59,7 +79,7 @@ export const industries: IndustryItem[] = [
       solution: 'Integrated ASM-CB-335 Cylinder Arm Compound Feed units with low-RPM high-torque servo drives.',
       result: 'Achieved 100% seam alignment on difficult boot uppers with zero leather slippage.'
     },
-    imageUrl: 'https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?auto=format&fit=crop&w=1000&q=80'
+    imageUrl: '/images/novel/31-K-15-LEATHER-MASTER-1.png'
   },
   {
     id: 'packaging-agro-sacks',
@@ -79,7 +99,7 @@ export const industries: IndustryItem[] = [
       solution: 'Supplied fleet of 12 ASM-BC-26 High-Tensile Bag Closers with ceiling spring balancers.',
       result: 'Achieved reliable closing rates of 250 bags per hour per station with zero bag bursts during transit.'
     },
-    imageUrl: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1000&q=80'
+    imageUrl: '/images/novel/TA-1-INDUSTRIAL.png'
   },
   {
     id: 'automotive-upholstery',
@@ -99,7 +119,7 @@ export const industries: IndustryItem[] = [
       solution: 'Customized heavy-duty walking foot workstations with digital stitch count feedback.',
       result: 'Passed automotive tensile test parameters on heavy vinyl and leather seat seams.'
     },
-    imageUrl: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80'
+    imageUrl: '/images/novel/31-K-15-LEATHER-MASTER-1.png'
   },
   {
     id: 'home-furnishing',
@@ -119,6 +139,6 @@ export const industries: IndustryItem[] = [
       solution: 'Standardized factory floor on ASM-TM-101 units mounted on ASM-TB-200 vibration-damped stands.',
       result: 'Doubled daily curtain hem production with consistently straight seam tension.'
     },
-    imageUrl: 'https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1000&q=80'
+    imageUrl: '/images/novel/Frame-37.png'
   }
 ];

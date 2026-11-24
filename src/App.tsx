@@ -28,13 +28,13 @@ const NotFoundPage = lazy(() => import('./pages/NotFoundPage').then(m => ({ defa
 // Industrial Loading Fallback
 const PageLoadingFallback: React.FC = () => (
   <div className="min-h-[60vh] flex flex-col items-center justify-center p-8 space-y-4">
-    <div className="w-12 h-12 rounded-xl bg-purple-50 border border-purple-200 flex items-center justify-center shadow-md animate-pulse">
-      <svg className="w-6 h-6 text-brand-600 animate-spin" viewBox="0 0 24 24" fill="none">
+    <div className="w-12 h-12 rounded-xl bg-[#FAF0E0] border border-[#E8D4BE] flex items-center justify-center shadow-md animate-pulse">
+      <svg className="w-6 h-6 text-[#D4621A] animate-spin" viewBox="0 0 24 24" fill="none">
         <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
         <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
       </svg>
     </div>
-    <span className="text-xs font-mono text-brand-700 tracking-wider uppercase font-semibold">
+    <span className="text-xs font-mono text-[#D4621A] tracking-wider uppercase font-semibold">
       Loading Engineering Data...
     </span>
   </div>
@@ -45,7 +45,7 @@ const AppContent: React.FC = () => {
   const isAdminRoute = location.pathname.startsWith('/admin');
 
   return (
-    <div className="flex flex-col min-h-screen bg-white text-slate-900 font-sans selection:bg-brand-600 selection:text-white relative">
+    <div className="flex flex-col min-h-screen bg-[#FEF3E2] text-[#2A1A0E] font-sans selection:bg-[#D4621A] selection:text-white relative">
       <ScrollProgressBar />
       <ScrollToTop />
       {!isAdminRoute && <Navbar />}

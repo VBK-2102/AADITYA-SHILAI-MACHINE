@@ -12,7 +12,7 @@ export const ScrollProgressBar: React.FC = () => {
   return (
     <motion.div
       style={{ scaleX }}
-      className="fixed top-0 left-0 right-0 h-[3.5px] bg-brand-600 origin-left z-[100] shadow-[0_0_12px_rgba(126,34,206,0.6)] pointer-events-none"
+      className="fixed top-0 left-0 right-0 h-[3.5px] bg-[#D4621A] origin-left z-[100] shadow-[0_0_12px_rgba(244,174,82,0.8)] pointer-events-none"
     />
   );
 };
