@@ -4,7 +4,7 @@ export const products: Product[] = [
   {
     id: 'asm-bt-deluxe',
     slug: 'asm-deluxe-boutique-tailoring-machine-stand',
-    name: 'Novel Deluxe Boutique Tailoring Machine with Treadle Stand & Wooden Table',
+    name: 'Aaditya Deluxe Boutique Tailoring Machine with Treadle Stand & Wooden Table',
     modelNumber: 'ASM-DLX-200',
     categoryId: 'lockstitch-tailor',
     categoryName: 'Boutique & Master Tailoring Machines',
@@ -52,7 +52,7 @@ export const products: Product[] = [
       'Zero electricity required for standard daily operation',
       'Quiet, rhythmic pedal operation gives master tailors total stitch-by-stitch speed control',
       'Virtually indestructible cast-iron engineering that lasts for generations',
-      'Fully supported by Novel Sewing Machine Co. genuine spare parts'
+      'Fully supported by Aaditya Shilai Machine genuine spare parts'
     ],
     operatingCapabilities: {
       maxSpeed: '1,500 - 2,800 SPM',
@@ -206,7 +206,7 @@ export const products: Product[] = [
   {
     id: 'asm-emb-800',
     slug: 'asm-designer-boutique-zig-zag-embroidery-800',
-    name: 'Novel Designer Boutique Zig-Zag, Cording & Embroidery Machine',
+    name: 'Aaditya Designer Boutique Zig-Zag, Cording & Embroidery Machine',
     modelNumber: 'ASM-EMB-800',
     categoryId: 'zig-zag-embroidery',
     categoryName: 'Designer Boutique Zig-Zag & Embroidery',
@@ -335,7 +335,7 @@ export const products: Product[] = [
   {
     id: 'asm-umb-950',
     slug: 'asm-umbrella-heavy-duty-950',
-    name: 'Novel High-Torque Umbrella Heavy-Duty Industrial Machine',
+    name: 'Aaditya High-Torque Umbrella Heavy-Duty Industrial Machine',
     modelNumber: 'ASM-UMB-950',
     categoryId: 'umbrella-heavy-duty',
     categoryName: 'Industrial Umbrella Machines',
@@ -383,7 +383,7 @@ export const products: Product[] = [
       'Proven 15+ year field endurance across textile clusters',
       'Readily accessible standardized spare parts and needles',
       'Minimal maintenance downtime with accessible oiling points',
-      'Backed by Novel Sewing Machine Co. factory warranty and repair service'
+      'Backed by Aaditya Shilai Machine factory warranty and repair service'
     ],
     operatingCapabilities: {
       maxSpeed: '2,800 SPM',
@@ -410,7 +410,7 @@ export const products: Product[] = [
     categoryId: 'lockstitch-tailor',
     categoryName: 'Tailor & Single Needle Lockstitch',
     shortDescription: 'The industry-standard precision lockstitch tailor machine, optimized for boutique tailors, apparel units, and fine fabric seam perfection.',
-    fullDescription: 'The ASM-TM-101 Tailor Master is Novel Sewing Machine Co.’s flagship tailor-grade straight stitch unit. Honed over nearly two decades of precision tuning in Kolhapur, it features ultra-balanced link-type thread take-up levers, micro-pitch feed dogs, and whisper-quiet mechanical movements. Ideal for shirts, trousers, ethnic wear, dresses, and light-to-medium suits.',
+    fullDescription: 'The ASM-TM-101 Tailor Master is Aaditya Shilai Machine’s flagship tailor-grade straight stitch unit. Honed over nearly two decades of precision tuning in Kolhapur, it features ultra-balanced link-type thread take-up levers, micro-pitch feed dogs, and whisper-quiet mechanical movements. Ideal for shirts, trousers, ethnic wear, dresses, and light-to-medium suits.',
     images: [
       '/images/novel/Tailor.png',
       '/images/novel/TA-1-TAILOR.png',
@@ -452,7 +452,7 @@ export const products: Product[] = [
       'Extremely forgiving stitch tension adjustments',
       'Low acoustic vibration during continuous high-speed stitching',
       'Long-life rotary hook with hardened tungsten-carbide tip',
-      'Lifetime technical support from Novel engineering technicians'
+      'Lifetime technical support from Aaditya engineering technicians'
     ],
     operatingCapabilities: {
       maxSpeed: '3,500 SPM',
@@ -474,7 +474,7 @@ export const products: Product[] = [
   {
     id: 'asm-dd-9000',
     slug: 'asm-direct-drive-computerized-9000',
-    name: 'Novel NextGen Direct-Drive Computerized Lockstitch System',
+    name: 'Aaditya NextGen Direct-Drive Computerized Lockstitch System',
     modelNumber: 'ASM-DD-9000',
     categoryId: 'direct-drive-computerized',
     categoryName: 'Computerized Direct-Drive Systems',
@@ -543,7 +543,7 @@ export const products: Product[] = [
   {
     id: 'asm-zz-450',
     slug: 'asm-precision-zig-zag-450',
-    name: 'Novel Heavy-Duty Multi-Pattern Zig-Zag Machine',
+    name: 'Aaditya Heavy-Duty Multi-Pattern Zig-Zag Machine',
     modelNumber: 'ASM-ZZ-450',
     categoryId: 'zig-zag-embroidery',
     categoryName: 'Zig-Zag & Decorative Stitchers',
@@ -610,7 +610,7 @@ export const products: Product[] = [
   {
     id: 'asm-ov-757',
     slug: 'asm-heavy-duty-overlock-5thread-757',
-    name: 'Novel High-Speed 5-Thread Industrial Overlock Machine',
+    name: 'Aaditya High-Speed 5-Thread Industrial Overlock Machine',
     modelNumber: 'ASM-OV-757',
     categoryId: 'overlock-interlock',
     categoryName: 'Overlock & Safety Stitch Machines',
@@ -677,7 +677,7 @@ export const products: Product[] = [
   {
     id: 'asm-bc-26',
     slug: 'asm-industrial-portable-bag-closer-26',
-    name: 'Novel High-Tensile Industrial Bag Closer Machine',
+    name: 'Aaditya High-Tensile Industrial Bag Closer Machine',
     modelNumber: 'ASM-BC-26',
     categoryId: 'bag-closers',
     categoryName: 'Heavy Bag Closer Packaging Machines',
@@ -743,7 +743,7 @@ export const products: Product[] = [
   {
     id: 'asm-cb-335',
     slug: 'asm-heavy-cylinder-bed-walking-foot-335',
-    name: 'Novel Heavy Cylinder Bed Compound Walking Foot Machine',
+    name: 'Aaditya Heavy Cylinder Bed Compound Walking Foot Machine',
     modelNumber: 'ASM-CB-335',
     categoryId: 'leather-cylinder-bed',
     categoryName: 'Heavy Cylinder Bed & Leather Stitchers',
@@ -810,7 +810,7 @@ export const products: Product[] = [
   {
     id: 'asm-sm-550',
     slug: 'asm-brushless-industrial-servo-motor-550',
-    name: 'Novel High-Torque Eco-Smart Industrial Servo Motor 550W',
+    name: 'Aaditya High-Torque Eco-Smart Industrial Servo Motor 550W',
     modelNumber: 'ASM-SM-550',
     categoryId: 'motors-stands-accessories',
     categoryName: 'Servo Motors, Stands & Industrial Spares',
@@ -871,7 +871,7 @@ export const products: Product[] = [
   {
     id: 'asm-tb-200',
     slug: 'asm-heavy-industrial-table-stand-assembly',
-    name: 'Novel Heavy-Duty Vibration-Damped Machine Table & Stand Assembly',
+    name: 'Aaditya Heavy-Duty Vibration-Damped Machine Table & Stand Assembly',
     modelNumber: 'ASM-TB-200',
     categoryId: 'motors-stands-accessories',
     categoryName: 'Servo Motors, Stands & Industrial Spares',

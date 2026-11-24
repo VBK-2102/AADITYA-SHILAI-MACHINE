@@ -1,19 +1,19 @@
-# NOVEL SEWING MACHINE CO. (Novel Sewing Machine Co.)
+# Aaditya Shilai Machine (Aaditya Shilai Machine)
 ### Industrial Machinery & High-Torque Precision Stitching Systems
 **Engineering Machines. Powering Industries.**
 
-Established in **2005** in Kolhapur, Maharashtra, **NOVEL SEWING MACHINE CO.** is Western India's premier manufacturer, supplier, and technical service hub for heavy-duty industrial umbrella sewing machines, computerized direct-drive lockstitch units, multi-pattern zig-zag embroidery systems, overlockers, and high-tensile bag closing machinery.
+Established in **2005** in Kolhapur, Maharashtra, **Aaditya Shilai Machine** is Western India's premier manufacturer, supplier, and technical service hub for heavy-duty industrial umbrella sewing machines, computerized direct-drive lockstitch units, multi-pattern zig-zag embroidery systems, overlockers, and high-tensile bag closing machinery.
 
 ---
 
 ## 🏭 Company Information (Verified)
 
-- **Official Name**: NOVEL SEWING MACHINE CO. (Novel Sewing Machine Co.)
+- **Official Name**: Aaditya Shilai Machine (Aaditya Shilai Machine)
 - **Year Established**: 2005 (19+ Years of Precision Engineering)
 - **Facility Address**: Industrial Machinery Complex, Kolhapur - 416007, Maharashtra, India
 - **Primary Phone**: `+91 79729 60490`
 - **Secondary Phone**: `+91 98224 51230`
-- **Official Email**: `NOVEL SEWING MACHINE CO.2710@gmail.com` / `info@NOVEL SEWING MACHINE CO..com`
+- **Official Email**: `Aaditya Shilai Machine2710@gmail.com` / `info@Aaditya Shilai Machine.com`
 - **Verified Record**: 2,500+ Industrial and Tailoring Clients &bull; 100% Satisfaction Rating
 - **Certifications**: ISO 9001:2015 QA Compliant &bull; CE Conformity &bull; 7-Stage QC Protocol
 
@@ -127,4 +127,4 @@ Push your repository to GitHub or GitLab and connect to Netlify with build comma
 ---
 
 ## 📄 License
-&copy; 2005–2026 **NOVEL SEWING MACHINE CO. (Novel Sewing Machine Co.)**. All rights reserved.
+&copy; 2005–2026 **Aaditya Shilai Machine (Aaditya Shilai Machine)**. All rights reserved.

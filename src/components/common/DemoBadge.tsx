@@ -22,7 +22,7 @@ export const DemoBadge: React.FC<DemoBadgeProps> = ({ isDemoConfig, className = 
   return (
     <span
       className={`inline-flex items-center space-x-1.5 text-[10px] font-mono font-medium px-2.5 py-0.5 rounded-full bg-[#FAF0E0] text-[#D4621A] border border-[#E8D4BE] shadow-sm ${className}`}
-      title="Verified authentic technical configuration calibrated by NOVEL SEWING MACHINE CO.."
+      title="Verified authentic technical configuration calibrated by Aaditya Shilai Machine."
     >
       <CheckCircle2 className="w-3 h-3 text-[#D4621A]" />
       <span>Official Spec Confirmed</span>

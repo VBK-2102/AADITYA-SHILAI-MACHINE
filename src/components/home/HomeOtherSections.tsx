@@ -163,7 +163,7 @@ export const IndustriesServedSection: React.FC = () => {
             </span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#2A1A0E] font-heading">
-            Industries Powered by <span className="font-serif italic font-normal text-[#D4621A]">Novel</span> Machinery
+            Industries Powered by <span className="font-serif italic font-normal text-[#D4621A]">Aaditya</span> Machinery
           </h2>
           <p className="text-sm text-[#5C4533] font-sans">
             Tailored engineering solutions configured to the exact fabric thickness, duty cycle, and speed criteria of real production floors.
@@ -247,7 +247,7 @@ export const QualityCommitmentSection: React.FC = () => {
               Our 7-Stage <span className="font-serif italic font-normal text-[#D4621A]">Quality Assurance</span> Protocol
             </h2>
             <p className="text-sm text-[#5C4533] leading-relaxed font-sans">
-              Every single machine head assembled or repaired at Novel Sewing Machine Co. is subjected to rigorous dimensional, acoustic, thermal, and 72-hour continuous burn-in audits before dispatch.
+              Every single machine head assembled or repaired at Aaditya Shilai Machine is subjected to rigorous dimensional, acoustic, thermal, and 72-hour continuous burn-in audits before dispatch.
             </p>
 
             <div className="space-y-3 text-xs font-mono">
@@ -304,7 +304,7 @@ export const QualityCommitmentSection: React.FC = () => {
 export const TestimonialsSection: React.FC = () => {
   const testimonials = [
     {
-      quote: "Novel Sewing Machine Co. repaired our heavy denim umbrella machines like they were brand new! Prompt, affordable, and unmatched mechanical knowledge in Kolhapur.",
+      quote: "Aaditya Shilai Machine repaired our heavy denim umbrella machines like they were brand new! Prompt, affordable, and unmatched mechanical knowledge in Kolhapur.",
       author: "Ganesh Kamble",
       role: "Lead Master Tailor & Boutique Owner",
       location: "Kolhapur, Maharashtra",

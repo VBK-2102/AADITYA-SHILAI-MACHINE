@@ -28,7 +28,7 @@ export const CompanyIntroSection: React.FC = () => {
             ~ Over 2,500 active machine installations across Western India
           </span>
           <p className="text-sm sm:text-base text-[#5C4533] font-sans leading-relaxed">
-            From single-needle boutique tailoring machines to heavy-duty umbrella workhorses and automated direct-drive factories, Novel Sewing Machine Co. provides certified industrial solutions.
+            From single-needle boutique tailoring machines to heavy-duty umbrella workhorses and automated direct-drive factories, Aaditya Shilai Machine provides certified industrial solutions.
           </p>
         </div>
 
@@ -39,7 +39,7 @@ export const CompanyIntroSection: React.FC = () => {
           <div className="lg:col-span-6 space-y-6">
             <div className="space-y-4 text-[#5C4533] leading-relaxed text-sm sm:text-base">
               <p>
-                Founded in <strong className="text-[#2A1A0E] font-sora font-semibold">2005</strong> in Kolhapur, Maharashtra, <strong className="text-[#D4621A]">Novel Sewing Machine Co.</strong> began with a clear industrial objective: to eliminate unreliability in sewing machinery through meticulous mechanical timing, aerospace-grade gear hardening, and immediate technical service.
+                Founded in <strong className="text-[#2A1A0E] font-sora font-semibold">2005</strong> in Kolhapur, Maharashtra, <strong className="text-[#D4621A]">Aaditya Shilai Machine</strong> began with a clear industrial objective: to eliminate unreliability in sewing machinery through meticulous mechanical timing, aerospace-grade gear hardening, and immediate technical service.
               </p>
               <p>
                 Located directly on <strong className="text-[#2A1A0E]">Industrial Machinery Hub, Kolhapur</strong>, our facility serves garment manufacturing clusters, denim exporters, sugarcane bag packaging units, leather craftsmen, and tailoring entrepreneurs across Maharashtra, Karnataka, and Goa.
@@ -126,7 +126,7 @@ export const CompanyIntroSection: React.FC = () => {
                 <div className="text-xs">
                   <span className="font-bold text-[#2A1A0E] block font-heading">Verified Physical Facility:</span>
                   <span className="text-[#5C4533] leading-relaxed block mt-0.5">
-                    Novel Sewing Machine Co., Industrial Machinery Hub, Kolhapur - 416007
+                    Aaditya Shilai Machine, Industrial Machinery Hub, Kolhapur - 416007
                   </span>
                   <div className="mt-2.5 flex items-center space-x-3 font-mono text-[#D4621A] font-semibold">
                     <span>Contact: {companyInfo.contact.primaryPhone}</span>

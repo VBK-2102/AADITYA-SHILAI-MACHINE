@@ -152,7 +152,7 @@ export const RequestQuotePage: React.FC = () => {
                       Commercial RFQ Confirmation Sheet
                     </span>
                     <h2 className="text-2xl font-black text-[#2A1A0E] print:text-black font-display">
-                      NOVEL SEWING MACHINE CO.
+                      Aaditya Shilai Machine
                     </h2>
                     <p className="text-xs text-[#5C4533] print:text-gray-600 font-mono">
                       {companyInfo.address.fullAddress} &bull; Ph: {companyInfo.contact.primaryPhone}
@@ -480,7 +480,7 @@ export const RequestQuotePage: React.FC = () => {
                   </button>
 
                   <p className="text-[11px] font-mono text-center text-[#5C4533]">
-                    Transmitted directly to NOVEL SEWING MACHINE CO. Operations Desk &bull; Confidential Commercial Data
+                    Transmitted directly to Aaditya Shilai Machine Operations Desk &bull; Confidential Commercial Data
                   </p>
                 </div>
 

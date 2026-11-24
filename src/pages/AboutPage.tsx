@@ -27,7 +27,7 @@ export const AboutPage: React.FC = () => {
               </span>
             </div>
             <h1 className="text-3xl sm:text-4xl xl:text-5xl font-black text-[#2A1A0E] font-heading">
-              Novel Sewing Machine Co.
+              Aaditya Shilai Machine
             </h1>
             <p className="text-base text-[#5C4533] leading-relaxed font-sans">
               Serving Kolhapur, Maharashtra, and India’s garment manufacturing corridors with uncompromising sewing machine engineering, high-torque industrial machinery, and expert mechanical servicing since 2005.
@@ -46,7 +46,7 @@ export const AboutPage: React.FC = () => {
                 Our Journey: From Dedicated Workshop to <span className="font-serif italic font-normal text-[#D4621A]">Industrial</span> Manufacturing Hub
               </h2>
               <p>
-                In <strong className="text-[#2A1A0E] font-sora font-semibold">2005</strong>, Novel Sewing Machine Co. was founded with a singular, high-precision conviction: that industrial sewing machinery should perform flawlessly under heavy, continuous production loads without premature gear wear, skipped stitches, or excessive downtime.
+                In <strong className="text-[#2A1A0E] font-sora font-semibold">2005</strong>, Aaditya Shilai Machine was founded with a singular, high-precision conviction: that industrial sewing machinery should perform flawlessly under heavy, continuous production loads without premature gear wear, skipped stitches, or excessive downtime.
               </p>
               <p>
                 Headquartered in the <strong className="text-[#2A1A0E]">Industrial Machinery Hub, Kolhapur</strong>, our facility has grown from a specialized overhaul center into a comprehensive supplier and engineering authority for industrial umbrella models, computerized direct-drive lockstitch systems, heavy cylinder walking feet, and industrial sack closers.
@@ -75,7 +75,7 @@ export const AboutPage: React.FC = () => {
               <div className="relative rounded-[28px] overflow-hidden border border-[#E8D4BE] shadow-lg bg-white">
                 <img
                   src="/images/novel/Frame-67-1.png"
-                  alt="Novel Sewing Machine Co. Engineering Facility"
+                  alt="Aaditya Shilai Machine Engineering Facility"
                   className="w-full h-80 object-cover"
                 />
                 <div className="p-6 space-y-3">

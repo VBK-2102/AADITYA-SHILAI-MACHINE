@@ -138,7 +138,7 @@ export const AdminDashboardPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <span className="font-extrabold text-[#2A1A0E] text-lg font-display">
-              NOVEL <span className="text-[#D4621A]">ADMIN</span> PORTAL
+              AADITYA <span className="text-[#D4621A]">ADMIN</span> PORTAL
             </span>
             <span className="hidden sm:inline-block text-xs font-mono text-[#D4621A] bg-[#FAF0E0] px-2.5 py-1 rounded-full border border-[#E8D4BE] font-semibold">
               Operations Desk

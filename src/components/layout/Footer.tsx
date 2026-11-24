@@ -39,7 +39,7 @@ export const Footer: React.FC = () => {
               </div>
               <div>
                 <span className="font-extrabold text-xl text-white tracking-tight font-heading">
-                  NOVEL <span className="text-[#D4621A]">SEWING</span> MACHINE
+                  AADITYA <span className="text-[#D4621A]">SHILAI</span> MACHINE
                 </span>
                 <p className="text-xs text-[#D4621A] font-mono font-medium">
                   Kolhapur, Maharashtra{' '}
@@ -208,7 +208,7 @@ export const Footer: React.FC = () => {
         {/* Bottom Sub-Bar */}
         <div className="mt-12 pt-6 border-t border-[#4D3420] flex flex-col md:flex-row items-center justify-between text-xs text-[#E8D4BE]/60 space-y-4 md:space-y-0">
           <div className="flex items-center space-x-2">
-            <span>&copy; {new Date().getFullYear()} Novel Sewing Machine Co. All rights reserved.</span>
+            <span>&copy; {new Date().getFullYear()} Aaditya Shilai Machine All rights reserved.</span>
           </div>
 
           <div className="flex items-center space-x-6 font-mono text-[11px]">

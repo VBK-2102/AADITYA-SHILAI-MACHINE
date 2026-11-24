@@ -30,7 +30,7 @@ export const QualityPage: React.FC = () => {
               Quality Assurance & <span className="font-serif italic font-normal text-[#D4621A]">Calibration</span> Protocol
             </h1>
             <p className="text-base text-[#5C4533] leading-relaxed font-sans">
-              Every industrial sewing machine assembled or serviced by NOVEL SEWING MACHINE CO. is audited against strict metallurgical, dimensional, and continuous 72-hour load criteria.
+              Every industrial sewing machine assembled or serviced by Aaditya Shilai Machine is audited against strict metallurgical, dimensional, and continuous 72-hour load criteria.
             </p>
           </div>
         </div>

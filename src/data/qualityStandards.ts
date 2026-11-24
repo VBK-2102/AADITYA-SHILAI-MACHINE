@@ -47,7 +47,7 @@ export const qualitySteps: QualityStep[] = [
     step: 7,
     title: 'Final Dispatch Quality Certificate & Serial Tagging',
     description: 'Every machine is assigned a unique tamper-proof serial number, inspection passport signed by the lead QA engineer, and factory test swatch.',
-    standard: '100% Quality Pass Tagged with Novel Calibration Certificate',
+    standard: '100% Quality Pass Tagged with Aaditya Calibration Certificate',
     icon: 'Award'
   }
 ];

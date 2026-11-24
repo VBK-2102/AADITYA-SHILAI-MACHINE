@@ -1,5 +1,5 @@
 export const companyInfo = {
-  name: "Novel Sewing Machine Co.",
+  name: "Aaditya Shilai Machine",
   tagline: "Engineering Machines. Powering Industries.",
   subtitle: "Artisan Boutique Tailoring & Heavy-Duty Industrial Stitching Systems",
   foundedYear: 2005,
@@ -13,14 +13,14 @@ export const companyInfo = {
     state: "Maharashtra",
     postalCode: "416007",
     country: "India",
-    fullAddress: "Novel Sewing Machine Co., Industrial Machinery Complex, Kolhapur - 416007, Maharashtra, India"
+    fullAddress: "Aaditya Shilai Machine, Industrial Machinery Complex, Kolhapur - 416007, Maharashtra, India"
   },
   contact: {
     primaryPhone: "+91 79729 60490",
     secondaryPhone: "+91 98224 51230",
-    email: "contact@novelsewingmachinecompany.com",
-    salesEmail: "sales@novelsewingmachinecompany.com",
-    supportEmail: "support@novelsewingmachinecompany.com",
+    email: "contact@aadityashilaimachine.com",
+    salesEmail: "sales@aadityashilaimachine.com",
+    supportEmail: "support@aadityashilaimachine.com",
     whatsapp: "+917972960490"
   },
   operatingHours: {

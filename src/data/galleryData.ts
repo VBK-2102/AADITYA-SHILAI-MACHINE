@@ -3,7 +3,7 @@ import { GalleryItem } from '../types';
 export const galleryItems: GalleryItem[] = [
   {
     "id": "gal-0",
-    "title": "Novel Deluxe Boutique Tailoring Machine with Treadle Stand ASM-DLX-200",
+    "title": "Aaditya Deluxe Boutique Tailoring Machine with Treadle Stand ASM-DLX-200",
     "category": "machinery",
     "imageUrl": "/images/novel/Frame-35.png",
     "description": "Iconic artisan boutique tailoring machine with cast-iron treadle stand, laminated wooden table, and dual manual/motor drive capability.",
@@ -11,7 +11,7 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     "id": "gal-bt-1",
-    "title": "Novel TA-1 Tailor Precision Stitching Machine Head",
+    "title": "Aaditya TA-1 Tailor Precision Stitching Machine Head",
     "category": "machinery",
     "imageUrl": "/images/novel/TA-1-TAILOR.png",
     "description": "Classic single-needle artisan lockstitch head engineered for smooth feed dogs and balanced tension on silk and cotton.",
@@ -19,7 +19,7 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     "id": "gal-bt-2",
-    "title": "Novel 95-T-10 Industrial Heavy-Duty Umbrella Machine",
+    "title": "Aaditya 95-T-10 Industrial Heavy-Duty Umbrella Machine",
     "category": "machinery",
     "imageUrl": "/images/novel/95-T-10-INDUSTRIAL-1.png",
     "description": "High-torque round-arm umbrella unit designed for thick canvas, denim, and multi-ply structural fabrics.",
@@ -27,7 +27,7 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     "id": "gal-bt-3",
-    "title": "Novel Designer Boutique Premium Gear-Type Machine",
+    "title": "Aaditya Designer Boutique Premium Gear-Type Machine",
     "category": "machinery",
     "imageUrl": "/images/novel/DESIGNER-PREMIUM-GEAR-1.png",
     "description": "Hardened internal gears delivering wave-free precision stitching, pico edge finishes, and designer fashion embroidery.",
@@ -35,7 +35,7 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     "id": "gal-bt-4",
-    "title": "Novel TA-1 Premium Tailoring Sewing Machine",
+    "title": "Aaditya TA-1 Premium Tailoring Sewing Machine",
     "category": "machinery",
     "imageUrl": "/images/novel/TA-1-PREMIUM.png",
     "description": "Balanced link-motion take-up with micro-pitch feed regulation for premium suits, sherwanis, and blouses.",
@@ -43,7 +43,7 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     "id": "gal-bt-5",
-    "title": "Novel 31-K-15 Leather Master & Heavy Stitching Machine",
+    "title": "Aaditya 31-K-15 Leather Master & Heavy Stitching Machine",
     "category": "machinery",
     "imageUrl": "/images/novel/31-K-15-LEATHER-MASTER-1.png",
     "description": "Extreme-torque walking foot mechanism capable of penetrating tough saddle leathers and multiple layers of denim.",
@@ -67,7 +67,7 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     "id": "gal-bt-8",
-    "title": "Novel Manufacturing Plant Staging & Precision Bay",
+    "title": "Aaditya Manufacturing Plant Staging & Precision Bay",
     "category": "facility",
     "imageUrl": "/images/novel/Frame-67-1.png",
     "description": "Staging and mechanical assembly line for industrial umbrella and artisan lockstitch machines.",
@@ -75,7 +75,7 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     "id": "gal-bt-9",
-    "title": "Novel Machinery Showroom & Demonstration Suite",
+    "title": "Aaditya Machinery Showroom & Demonstration Suite",
     "category": "facility",
     "imageUrl": "/images/novel/Frame-65.png",
     "description": "Modern exhibition showroom displaying complete line of boutique, family, and heavy industrial sewing systems.",

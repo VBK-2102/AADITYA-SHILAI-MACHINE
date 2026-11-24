@@ -346,7 +346,7 @@ export const ContactPage: React.FC = () => {
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 border-b border-[#F0DEC9]">
               <div>
                 <span className="text-xs font-mono text-[#D4621A] uppercase font-bold block">Kolhapur Facility Map</span>
-                <h3 className="text-lg font-bold text-[#2A1A0E] font-display">Novel Sewing Machine Co. Facility</h3>
+                <h3 className="text-lg font-bold text-[#2A1A0E] font-display">Aaditya Shilai Machine Facility</h3>
               </div>
               <a
                 href="https://maps.google.com/?q=Kolhapur+Maharashtra"
@@ -367,7 +367,7 @@ export const ContactPage: React.FC = () => {
                 allowFullScreen={false}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Novel Sewing Machine Co. Location Map"
+                title="Aaditya Shilai Machine Location Map"
               ></iframe>
             </div>
           </div>

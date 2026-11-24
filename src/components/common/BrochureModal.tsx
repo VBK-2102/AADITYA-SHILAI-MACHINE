@@ -56,7 +56,7 @@ export const BrochureModal: React.FC<BrochureModalProps> = ({ product, isOpen, o
                 Official Engineering Specification Sheet
               </span>
               <h2 className="text-2xl font-black text-[#2A1A0E] print:text-black font-display">
-                NOVEL SEWING MACHINE CO.
+                Aaditya Shilai Machine
               </h2>
               <p className="text-xs text-[#5C4533] print:text-gray-600 font-mono">
                 {companyInfo.address.fullAddress} &bull; Ph: {companyInfo.contact.primaryPhone}
@@ -175,7 +175,7 @@ export const BrochureModal: React.FC<BrochureModalProps> = ({ product, isOpen, o
           <div className="pt-4 border-t border-[#E8D4BE] flex flex-col sm:flex-row justify-between items-start sm:items-center text-xs text-[#5C4533] gap-3">
             <div className="flex items-center space-x-2">
               <ShieldCheck className="w-5 h-5 text-brand-600" />
-              <span>Certified Original Specification Document &bull; NOVEL SEWING MACHINE CO.</span>
+              <span>Certified Original Specification Document &bull; Aaditya Shilai Machine</span>
             </div>
             <div className="text-[11px] font-mono text-brand-700 font-semibold">
               Technical Support: +91 79729 60490

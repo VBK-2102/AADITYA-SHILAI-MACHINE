@@ -30,7 +30,7 @@ export const IndustriesPage: React.FC = () => {
               Industries Served & <span className="font-serif italic font-normal text-[#D4621A]">Application</span> Engineering
             </h1>
             <p className="text-base text-[#5C4533] leading-relaxed font-sans">
-              NOVEL SEWING MACHINE CO. supplies verified sewing machinery tailored to the exact stitch tension, duty cycle, and fabric thickness demands of diverse commercial sectors.
+              Aaditya Shilai Machine supplies verified sewing machinery tailored to the exact stitch tension, duty cycle, and fabric thickness demands of diverse commercial sectors.
             </p>
           </div>
         </div>

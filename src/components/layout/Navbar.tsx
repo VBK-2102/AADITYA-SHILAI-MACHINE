@@ -79,7 +79,7 @@ export const Navbar: React.FC = () => {
                     </div>
                     <div className="flex flex-col">
                         <span className="font-extrabold text-lg sm:text-xl tracking-tight text-[#2A1A0E] group-hover:text-[#D4621A] transition-colors font-heading">
-                          NOVEL <span className="text-[#D4621A]">SEWING</span> MACHINE
+                          AADITYA <span className="text-[#D4621A]">SHILAI</span> MACHINE
                         </span>
                           <span className="text-[10px] font-mono tracking-wider text-[#5C4533] -mt-0.5 flex items-center space-x-1.5">
                             <span className="text-[#D4621A] font-semibold">PRECISION INDUSTRIAL MACHINERY</span>

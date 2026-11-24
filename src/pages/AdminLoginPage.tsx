@@ -4,7 +4,7 @@ import { Lock, Mail, Key, ArrowRight, AlertCircle } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
 export const AdminLoginPage: React.FC = () => {
-  const [email, setEmail] = useState('admin@novelsewingmachinecompany.com');
+  const [email, setEmail] = useState('admin@aadityashilaimachine.com');
   const [password, setPassword] = useState('admin123');
   const [error, setError] = useState<string | null>(null);
   const { login } = useAuth();
@@ -32,7 +32,7 @@ export const AdminLoginPage: React.FC = () => {
             <Lock className="w-6 h-6" />
           </div>
           <h1 className="text-2xl font-bold text-[#2A1A0E] font-display">
-            Novel Staff Portal
+            Aaditya Staff Portal
           </h1>
           <p className="text-xs text-[#5C4533] font-mono">
             Commercial Requisitions & Catalogue Management
@@ -43,7 +43,7 @@ export const AdminLoginPage: React.FC = () => {
         <div className="bg-[#FAFBF7] border border-[#E8D4BE] rounded-2xl p-4 space-y-1 text-xs">
           <span className="font-mono text-[#D4621A] font-bold block">Preset Administrator Access:</span>
           <div className="text-[#5C4533] font-mono text-[11px] flex justify-between">
-            <span>Email: <strong className="text-[#2A1A0E]">admin@novelsewingmachinecompany.com</strong></span>
+            <span>Email: <strong className="text-[#2A1A0E]">admin@aadityashilaimachine.com</strong></span>
             <span>Password: <strong className="text-[#2A1A0E]">admin123</strong></span>
           </div>
         </div>

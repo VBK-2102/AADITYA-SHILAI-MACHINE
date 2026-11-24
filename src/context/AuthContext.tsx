@@ -22,8 +22,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   useEffect(() => {
     if (isAuthenticated && !user) {
       setUser({
-        email: 'admin@novelsewingmachinecompany.com',
-        name: 'Novel Operations Manager',
+        email: 'admin@aadityashilaimachine.com',
+        name: 'Aaditya Operations Manager',
         role: 'Administrator'
       });
     }
@@ -31,11 +31,11 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const login = (email: string, pass: string): boolean => {
     // Admin credentials
-    if ((email.trim().toLowerCase() === 'admin@novelsewingmachinecompany.com' || email.trim().toLowerCase() === 'admin') && pass === 'admin123') {
+    if ((email.trim().toLowerCase() === 'admin@aadityashilaimachine.com' || email.trim().toLowerCase() === 'admin') && pass === 'admin123') {
       setIsAuthenticated(true);
       const adminUser = {
-        email: 'admin@novelsewingmachinecompany.com',
-        name: 'Novel Operations Manager',
+        email: 'admin@aadityashilaimachine.com',
+        name: 'Aaditya Operations Manager',
         role: 'Administrator'
       };
       setUser(adminUser);
